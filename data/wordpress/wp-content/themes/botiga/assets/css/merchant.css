@@ -1,0 +1,24 @@
+/**
+ * Merchant compatibility.
+ */
+/**
+ * Side Cart module.
+ */
+.merchant-quantity-plus,
+.merchant-quantity-minus {
+  display: none !important;
+}
+
+.merchant-floating-side-mini-cart-widget .product_list_widget .merchant-quantity-plus,
+.merchant-floating-side-mini-cart-widget .product_list_widget .merchant-quantity-minus {
+  display: block !important;
+  color: #777777 !important;
+  background: none !important;
+  border: 1px solid #dbdbdb !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.merchant-floating-side-mini-cart-widget .product_list_widget .merchant-quantity-plus:hover,
+.merchant-floating-side-mini-cart-widget .product_list_widget .merchant-quantity-minus:hover {
+  color: #1a1a1a !important;
+}
