@@ -25,7 +25,7 @@
         <section class="menu-area">
             <div class="container">
                 <nav class="main-menu">
-                    Menu
+                    <?php wp_nav_menu(array('theme_location' => 'wp_devs_main_menu', 'depth' => 2)); ?>
                 </nav>
             </div>
         </section>
