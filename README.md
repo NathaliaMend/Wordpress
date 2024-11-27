@@ -6,7 +6,7 @@ codando um template em php para o wordpress
 - Docker
 
 
-# Como rodat o projeto
+# Como rodat o projeto localmente
 
 ```
 ```
