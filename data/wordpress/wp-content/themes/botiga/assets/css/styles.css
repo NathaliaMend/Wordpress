@@ -732,7 +732,6 @@ a.wc-forward:not(.checkout-button):hover {
 
 /* Forms
 --------------------------------------------- */
-button:not(.components-button):not(.pswp__button),
 a.button,
 .button,
 .checkout-button,
@@ -763,7 +762,6 @@ input[type=submit] {
   letter-spacing: var(--bt-letter-spacing-button, 0px);
   font-size: var(--bt-font-size-button, 14px);
 }
-button:not(.components-button):not(.pswp__button) svg,
 a.button svg,
 .button svg,
 .checkout-button svg,
@@ -776,12 +774,7 @@ input[type=reset] svg,
 input[type=submit] svg {
   fill: var(--bt-color-button, #FFF);
 }
-button:not(.components-button):not(.pswp__button):not(.has-text-color), button:not(.components-button):not(.pswp__button).checkout-button:not(.has-text-color), button:not(.components-button):not(.pswp__button):not(.wc-forward):not(.has-text-color), button:not(.components-button):not(.pswp__button).checkout:not(.has-text-color), button:not(.components-button):not(.pswp__button).wc-backward,
-a.button:not(.has-text-color),
-a.button.checkout-button:not(.has-text-color),
-a.button:not(.wc-forward):not(.has-text-color),
-a.button.checkout:not(.has-text-color),
-a.button.wc-backward,
+a.button:not(.has-text-color), a.button.checkout-button:not(.has-text-color), a.button:not(.wc-forward):not(.has-text-color), a.button.checkout:not(.has-text-color), a.button.wc-backward,
 .button:not(.has-text-color),
 .button.checkout-button:not(.has-text-color),
 .button:not(.wc-forward):not(.has-text-color),
@@ -829,12 +822,7 @@ input[type=submit].checkout:not(.has-text-color),
 input[type=submit].wc-backward {
   color: var(--bt-color-button, #FFF);
 }
-button:not(.components-button):not(.pswp__button):not(.has-text-color):hover, button:not(.components-button):not(.pswp__button).checkout-button:not(.has-text-color):hover, button:not(.components-button):not(.pswp__button):not(.wc-forward):not(.has-text-color):hover, button:not(.components-button):not(.pswp__button).checkout:not(.has-text-color):hover, button:not(.components-button):not(.pswp__button).wc-backward:hover,
-a.button:not(.has-text-color):hover,
-a.button.checkout-button:not(.has-text-color):hover,
-a.button:not(.wc-forward):not(.has-text-color):hover,
-a.button.checkout:not(.has-text-color):hover,
-a.button.wc-backward:hover,
+a.button:not(.has-text-color):hover, a.button.checkout-button:not(.has-text-color):hover, a.button:not(.wc-forward):not(.has-text-color):hover, a.button.checkout:not(.has-text-color):hover, a.button.wc-backward:hover,
 .button:not(.has-text-color):hover,
 .button.checkout-button:not(.has-text-color):hover,
 .button:not(.wc-forward):not(.has-text-color):hover,
@@ -882,7 +870,6 @@ input[type=submit].checkout:not(.has-text-color):hover,
 input[type=submit].wc-backward:hover {
   color: var(--bt-color-button-hover, #FFF);
 }
-button:not(.components-button):not(.pswp__button).is-style-outline,
 a.button.is-style-outline,
 .button.is-style-outline,
 .checkout-button.is-style-outline,
@@ -895,7 +882,6 @@ input[type=reset].is-style-outline,
 input[type=submit].is-style-outline {
   border-color: var(--bt-color-button-border, #212121);
 }
-button:not(.components-button):not(.pswp__button).is-style-outline:not(.has-text-color),
 a.button.is-style-outline:not(.has-text-color),
 .button.is-style-outline:not(.has-text-color),
 .checkout-button.is-style-outline:not(.has-text-color),
@@ -909,7 +895,6 @@ input[type=submit].is-style-outline:not(.has-text-color) {
   color: var(--bt-color-button, #FFF);
   border: 2px solid var(--bt-color-button-border, #212121);
 }
-.is-style-outline button:not(.components-button):not(.pswp__button):not(.has-text-color):hover,
 .is-style-outline a.button:not(.has-text-color):hover,
 .is-style-outline .button:not(.has-text-color):hover,
 .is-style-outline .checkout-button:not(.has-text-color):hover,
@@ -922,7 +907,6 @@ input[type=submit].is-style-outline:not(.has-text-color) {
 .is-style-outline input[type=submit]:not(.has-text-color):hover {
   color: var(--bt-color-button-hover, #FFF);
 }
-.is-style-outline button:not(.components-button):not(.pswp__button):not(.has-background):hover,
 .is-style-outline a.button:not(.has-background):hover,
 .is-style-outline .button:not(.has-background):hover,
 .is-style-outline .checkout-button:not(.has-background):hover,
@@ -935,7 +919,6 @@ input[type=submit].is-style-outline:not(.has-text-color) {
 .is-style-outline input[type=submit]:not(.has-background):hover {
   background-color: var(--bt-color-button-bg-hover, #757575);
 }
-button:not(.components-button):not(.pswp__button):not(.has-background),
 a.button:not(.has-background),
 .button:not(.has-background),
 .checkout-button:not(.has-background),
@@ -948,7 +931,6 @@ input[type=reset]:not(.has-background),
 input[type=submit]:not(.has-background) {
   background-color: var(--bt-color-button-bg, #212121);
 }
-button:not(.components-button):not(.pswp__button):not(.has-background):hover,
 a.button:not(.has-background):hover,
 .button:not(.has-background):hover,
 .checkout-button:not(.has-background):hover,
@@ -961,7 +943,6 @@ input[type=reset]:not(.has-background):hover,
 input[type=submit]:not(.has-background):hover {
   background-color: var(--bt-color-button-bg-hover, #757575);
 }
-button:not(.components-button):not(.pswp__button):hover,
 a.button:hover,
 .button:hover,
 .checkout-button:hover,
@@ -974,7 +955,6 @@ input[type=reset]:hover,
 input[type=submit]:hover {
   border-color: var(--bt-color-button-border-hover, #757575);
 }
-button:not(.components-button):not(.pswp__button):hover svg,
 a.button:hover svg,
 .button:hover svg,
 .checkout-button:hover svg,
@@ -987,7 +967,6 @@ input[type=reset]:hover svg,
 input[type=submit]:hover svg {
   fill: var(--bt-color-button-hover, #FFF);
 }
-button:not(.components-button):not(.pswp__button):hover:not(.has-background),
 a.button:hover:not(.has-background),
 .button:hover:not(.has-background),
 .checkout-button:hover:not(.has-background),
@@ -1000,9 +979,7 @@ input[type=reset]:hover:not(.has-background),
 input[type=submit]:hover:not(.has-background) {
   background-color: var(--bt-color-button-bg-hover, #757575);
 }
-button:not(.components-button):not(.pswp__button):active, button:not(.components-button):not(.pswp__button):focus,
-a.button:active,
-a.button:focus,
+a.button:active, a.button:focus,
 .button:active,
 .button:focus,
 .checkout-button:active,
@@ -2016,41 +1993,6 @@ html {
             flex-grow: 1;
   }
 }
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.flex-direction-column {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.valign {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.text-align-right {
-  text-align: right;
-}
-
-.text-align-center {
-  text-align: center;
-}
-
-.flex-nowrap {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
 /**
  * Content Width
  */
@@ -6090,6 +6032,23 @@ body {
 
 /* Alignments
 --------------------------------------------- */
+.valign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
 .alignleft {
   /*rtl:ignore*/
   float: left;
@@ -6391,6 +6350,24 @@ body {
 
 /* Display
 --------------------------------------------- */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
 .bt-d-none-ni {
   display: none;
 }

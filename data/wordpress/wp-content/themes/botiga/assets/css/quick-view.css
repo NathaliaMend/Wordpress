@@ -530,9 +530,6 @@ ul.wc-block-grid__products li.wc-block-grid__product:hover .loop-image-wrap.boti
 .botiga-quick-view-popup .botiga-quick-view-popup-content .woocommerce-product-gallery.hidden {
   display: none;
 }
-.botiga-quick-view-popup .botiga-quick-view-popup-content .woocommerce-product-gallery .flex-viewport {
-  margin-bottom: 20px;
-}
 .botiga-quick-view-popup .botiga-quick-view-popup-content .woocommerce-product-gallery .flex-direction-nav {
   display: none;
 }

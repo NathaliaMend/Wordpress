@@ -142,7 +142,6 @@ return array(
     'MercadoPago\\Woocommerce\\Helpers\\Notices' => $baseDir . '/src/Helpers/Notices.php',
     'MercadoPago\\Woocommerce\\Helpers\\NotificationType' => $baseDir . '/src/Helpers/NotificationType.php',
     'MercadoPago\\Woocommerce\\Helpers\\Numbers' => $baseDir . '/src/Helpers/Numbers.php',
-    'MercadoPago\\Woocommerce\\Helpers\\Paths' => $baseDir . '/src/Helpers/Paths.php',
     'MercadoPago\\Woocommerce\\Helpers\\PaymentMethods' => $baseDir . '/src/Helpers/PaymentMethods.php',
     'MercadoPago\\Woocommerce\\Helpers\\PaymentStatus' => $baseDir . '/src/Helpers/PaymentStatus.php',
     'MercadoPago\\Woocommerce\\Helpers\\Requester' => $baseDir . '/src/Helpers/Requester.php',

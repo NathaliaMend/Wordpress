@@ -162,7 +162,6 @@ class ComposerStaticInitb0432a3c5c3bfd92e480f8620a5008af
         'MercadoPago\\Woocommerce\\Helpers\\Notices' => __DIR__ . '/../..' . '/src/Helpers/Notices.php',
         'MercadoPago\\Woocommerce\\Helpers\\NotificationType' => __DIR__ . '/../..' . '/src/Helpers/NotificationType.php',
         'MercadoPago\\Woocommerce\\Helpers\\Numbers' => __DIR__ . '/../..' . '/src/Helpers/Numbers.php',
-        'MercadoPago\\Woocommerce\\Helpers\\Paths' => __DIR__ . '/../..' . '/src/Helpers/Paths.php',
         'MercadoPago\\Woocommerce\\Helpers\\PaymentMethods' => __DIR__ . '/../..' . '/src/Helpers/PaymentMethods.php',
         'MercadoPago\\Woocommerce\\Helpers\\PaymentStatus' => __DIR__ . '/../..' . '/src/Helpers/PaymentStatus.php',
         'MercadoPago\\Woocommerce\\Helpers\\Requester' => __DIR__ . '/../..' . '/src/Helpers/Requester.php',
