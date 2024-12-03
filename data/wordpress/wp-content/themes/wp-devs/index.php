@@ -9,7 +9,28 @@
                 Services
             </section>
             <section class="home-blog">
-                Blog
+                <div class="container">
+                    <div class="blog-items">
+                    <?php /*LOOP*/
+               if(have_posts()): //se tiver posts
+                while(have_posts()) : the_post(); // enquanto tiver posts ,chame os posts independente da quantidade 
+                ?> 
+                <article>
+                    <h2><?php the_title(); ?></h2>
+                    <div class="meta-info">
+                        <p>Posted in <?php echo get_the_date(); ?> by <?php the_author_posts_link();?></p>
+                        <p>Categories: <?php the_category(' ');?></p>
+                        <p>Tags: <?php the_tags('', ', ');?></p>
+                    </div>
+                    <?php the_content();?>
+                </article>
+                <?php
+                endwhile;
+                else: ?>
+                    <p>Nothing yet to be displayed!</p>
+                    <?php endif; ?>
+                    </div>
+                </div>  
             </section>
         </main>
     </div>
