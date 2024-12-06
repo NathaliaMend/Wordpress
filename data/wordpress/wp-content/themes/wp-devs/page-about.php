@@ -2,12 +2,7 @@
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
-            <section class="hero">
-                Hero
-            </section>
-            <section class="services">
-                Services
-            </section>
+
             <section class="home-blog">
                 <div class="container">
                     <div class="blog-items">
