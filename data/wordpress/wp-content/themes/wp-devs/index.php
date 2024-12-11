@@ -2,13 +2,7 @@
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
-            <section class="hero">
-                Hero
-            </section>
-            <section class="services">
-                Services
-            </section>
-            <section class="home-blog">
+            <h1>Blog</h1>
                 <div class="container">
                     <div class="blog-items">
                         <?php /*LOOP*/
@@ -32,7 +26,6 @@
                         <?php endif; ?>
                     </div>
                 </div>
-            </section>
         </main>
     </div>
 </div>
