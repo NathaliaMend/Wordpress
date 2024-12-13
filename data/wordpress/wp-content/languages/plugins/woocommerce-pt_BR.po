@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-25 18:21:41+0000\n"
+"PO-Revision-Date: 2024-12-12 06:18:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -273,6 +273,11 @@ msgctxt "block title"
 msgid "Filter Options"
 msgstr "Opções de filtro"
 
+#: assets/client/blocks/product-filters-overlay-navigation/block.json
+msgctxt "block title"
+msgid "Overlay Navigation (Experimental)"
+msgstr "Navegação sobreposta (experimental)"
+
 #: assets/client/blocks/product-filters/block.json
 msgctxt "block title"
 msgid "Product Filters (Experimental)"
@@ -292,6 +297,11 @@ msgstr "Exibir filtros de produtos em uma sobreposição no topo de uma página.
 msgctxt "block title"
 msgid "Clear (Experimental)"
 msgstr "Limpar (Experimental)"
+
+#: src/Blocks/Patterns/PatternRegistry.php:29
+#: assets/client/admin/chunks/customize-store.js:1
+msgid "Services"
+msgstr "Serviços"
 
 #: assets/client/blocks/inner-blocks/checkout-shipping-method-block/block.json
 msgctxt "block title"
@@ -1737,6 +1747,11 @@ msgctxt "block description"
 msgid "Display the average rating of a product with stars"
 msgstr "Mostrar a média de avaliações do produto com estrelas"
 
+#: assets/client/blocks/product-price/block.json
+msgctxt "block title"
+msgid "Product Price"
+msgstr "Preço do produto"
+
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:171
 #: assets/client/admin/chunks/multichannel-marketing.js:1
 #: assets/client/admin/wp-admin-scripts/marketing-coupons.js:2
@@ -2300,6 +2315,10 @@ msgstr "Você não pode editar este item porque está na lixeira. Restaure-o e t
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:172
 msgid "This info will be displayed on the product page, category pages, social media, and search results."
 msgstr "Essas informações serão exibidas na página do produto, nas páginas da categoria, nas mídias sociais e nos resultados da pesquisa."
+
+#: templates/single-product/product-attributes.php:26
+msgid "Product Details"
+msgstr "Detalhes do produto"
 
 #: templates/cart/shipping-calculator.php:30
 msgid "Country / region:"
@@ -3179,6 +3198,10 @@ msgstr "Tarefa não é uma subclasse de `tarefa`"
 msgid "Dismiss the gateway"
 msgstr "Dispensar o sistema"
 
+#: includes/class-woocommerce.php:1197
+msgid "You have installed a development version of WooCommerce which requires files to be built and minified. From the plugin directory, run <code>pnpm install</code> and then <code>pnpm --filter='@woocommerce/plugin-woocommerce' build</code> to build and minify assets."
+msgstr "Você instalou uma versão de desenvolvimento do WooCommerce que requer que os arquivos sejam criados e minificados. No diretório do plugin, execute <code>pnpm install</code>  e, em seguida, <code>pnpm --filter='@woocommerce/plugin-woocommerce' build</code> para compilar e minificar os ativos."
+
 #: i18n/states.php:2182
 msgid "La Guaira (Vargas)"
 msgstr "La Guaira (Vargas)"
@@ -4014,6 +4037,11 @@ msgctxt "block title"
 msgid "Billing Address"
 msgstr "Endereço de faturamento"
 
+#: assets/client/blocks/inner-blocks/checkout-terms-block/block.json
+msgctxt "block description"
+msgid "Ensure that customers agree to your Terms & Conditions and Privacy Policy."
+msgstr "Garanta que os clientes concordem com seus termos e condições e com a política de privacidade."
+
 #: assets/client/blocks/inner-blocks/filled-cart-block/block.json
 msgctxt "block title"
 msgid "Filled Cart"
@@ -4185,6 +4213,10 @@ msgstr "Período de tempo para adiar a tarefa."
 #: src/Admin/API/OnboardingProfile.php:426
 msgid "Store email address."
 msgstr "Armazenar endereço de e-mail."
+
+#: src/Admin/API/OnboardingProfile.php:419
+msgid "Whether or not this store agreed to receiving marketing contents from WooCommerce.com."
+msgstr "Se esta loja concordou ou não, em receber conteúdo de marketing do WooCommerce.com."
 
 #: includes/admin/class-wc-admin-assets.php:356
 msgid "Are you sure you want to remove the selected fees?"
@@ -5400,7 +5432,7 @@ msgstr "A data que foi realizado o último pedido para este produto, no fuso hor
 msgid "The discount type for the coupon (e.g. percentage or fixed amount)"
 msgstr "O tipo de desconto para o cupom (ex. porcentagem ou valor fixo)"
 
-#: src/StoreApi/Routes/V1/Checkout.php:475
+#: src/StoreApi/Routes/V1/Checkout.php:480
 msgid "Unable to create order"
 msgstr "Não é possível criar um pedido"
 
@@ -7816,7 +7848,7 @@ msgstr "Limita os resultados para produtos com base em um preço mínimo, fornec
 msgid "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
 msgstr "Limita os resultados para produtos com base em um preço máximo, fornecido com a menor unidade da moeda."
 
-#: src/StoreApi/Routes/V1/Checkout.php:556
+#: src/StoreApi/Routes/V1/Checkout.php:561
 #: src/StoreApi/Routes/V1/CheckoutOrder.php:244
 msgid "No payment method provided."
 msgstr "Nenhum método de pagamento fornecido."
@@ -15944,7 +15976,7 @@ msgstr "Exibir o carrinho de compras do cliente."
 
 #. translators: 1: wc_load_cart 2: woocommerce_init
 #. translators: 1: class::method 2: plugins_loaded
-#: includes/wc-core-functions.php:2561
+#: includes/wc-core-functions.php:2562
 #: src/Internal/Features/FeaturesController.php:555
 msgid "%1$s should not be called before the %2$s action."
 msgstr "A função %1$s não deve ser chamada antes da ação %2$s."
@@ -15996,7 +16028,7 @@ msgstr "A tarifa já foi adicionada."
 
 #. translators: 1: class name 2: woocommerce_logging_class 3:
 #. WC_Logger_Interface
-#: includes/wc-core-functions.php:2048
+#: includes/wc-core-functions.php:2049
 msgid "The class %1$s provided by %2$s filter must implement %3$s."
 msgstr "A classe %1$s fornecida pelo filtro %2$s deve implementar %3$s."
 
@@ -18380,6 +18412,7 @@ msgstr "Você não pode adicionar outro \"%s\" em seu carrinho."
 #: includes/class-wc-frontend-scripts.php:587
 #: includes/wc-cart-functions.php:128 includes/wc-template-functions.php:2316
 #: src/Blocks/BlockTypes/ProductButton.php:280
+#: src/Blocks/BlockTypes/ProductButton.php:281
 msgid "View cart"
 msgstr "Ver carrinho"
 
@@ -22639,11 +22672,6 @@ msgstr "Tipo de download, isto controla o schema na interface."
 msgid "Line item meta data."
 msgstr "Metadados do item."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:489
-#: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1378
-msgid "Meta label."
-msgstr "Rótulo do metadado."
-
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:483
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1372
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:517
@@ -22691,6 +22719,11 @@ msgstr "Chave do metadado."
 #: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:199
 msgid "Meta value."
 msgstr "Valor do metadado."
+
+#: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:489
+#: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1378
+msgid "Meta label."
+msgstr "Rótulo do metadado."
 
 #: includes/admin/views/html-notice-legacy-shipping.php:27
 #: includes/admin/views/html-notice-no-shipping-methods.php:31
@@ -25666,6 +25699,7 @@ msgstr "Já é cliente?"
 msgid "The following addresses will be used on the checkout page by default."
 msgstr "Os endereços a seguir serão usados na página de finalização de compra por padrão."
 
+#: src/StoreApi/Routes/V1/Checkout.php:677
 #: templates/checkout/form-checkout.php:26
 #: assets/client/blocks/checkout-frontend.js:1
 msgid "You must be logged in to checkout."
@@ -33142,7 +33176,7 @@ msgid "Orders"
 msgstr "Pedidos"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:74
-#: includes/wc-core-functions.php:2189 includes/wc-update-functions.php:82
+#: includes/wc-core-functions.php:2190 includes/wc-update-functions.php:82
 msgctxt "slug"
 msgid "product-category"
 msgstr "categoria-produto"
@@ -33150,7 +33184,7 @@ msgstr "categoria-produto"
 #: includes/admin/class-wc-admin-brands.php:648
 #: includes/admin/class-wc-admin-permalink-settings.php:193
 #: includes/admin/class-wc-admin-permalink-settings.php:196
-#: includes/wc-core-functions.php:2188 includes/wc-update-functions.php:92
+#: includes/wc-core-functions.php:2189 includes/wc-update-functions.php:92
 msgctxt "slug"
 msgid "product"
 msgstr "produto"
@@ -33364,7 +33398,7 @@ msgid "Order status changed from %1$s to %2$s."
 msgstr "Status do pedido alterado de %1$s para %2$s."
 
 #: includes/admin/class-wc-admin-permalink-settings.php:83
-#: includes/wc-core-functions.php:2190 includes/wc-update-functions.php:83
+#: includes/wc-core-functions.php:2191 includes/wc-update-functions.php:83
 msgctxt "slug"
 msgid "product-tag"
 msgstr "produto-tag"
