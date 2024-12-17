@@ -1029,6 +1029,7 @@ footer .container .row {
 .wp-post-image {
     float: left;
     margin: 0 15px 10px 0;
+    border-radius: 50%;
 }
 
 @media screen and(max-width: 550px) {
