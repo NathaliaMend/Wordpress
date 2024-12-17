@@ -25,5 +25,6 @@ function wpdevs_config()
         'width'=> '1920',
     );
     add_theme_support('custom-header', args: $args);
+    add_theme_support('post-thumbnails');
 }
 add_action('after_setup_theme','wpdevs_config', 0); // a funcao wpdevs_config sera chamada quando o gancho áfter_setup_theme'ficar disponivel e com a maior prioridade possivel ,0, antes de qualquer outra funcao.

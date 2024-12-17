@@ -2,7 +2,7 @@
 
 <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
     width="<?php get_custom_header()->width; ?>" alt="" />
-    
+
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
@@ -16,6 +16,7 @@
                             ?>
                             <article>
                                 <h2><?php the_title(); ?></h2>
+                                <?php the_post_thumbnail(array(150,150)); ?>
                                 <div class="meta-info">
                                     <p>Posted in <?php echo get_the_date(); ?> by <?php the_author_posts_link(); ?></p>
                                     <p>Categories: <?php the_category(' '); ?></p>
