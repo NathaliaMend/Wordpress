@@ -34,3 +34,18 @@ function wpdevs_config()
     ));
 }
 add_action('after_setup_theme','wpdevs_config', 0); // a funcao wpdevs_config sera chamada quando o gancho áfter_setup_theme'ficar disponivel e com a maior prioridade possivel ,0, antes de qualquer outra funcao.
+
+add_action('widgets_init','wpdevs_sidebars',0); //barra lateral
+function wpdevs_sidebars(){
+    register_sidebar(
+        array(
+            'name'=> 'Blog Sidebar',
+            'id'=> 'sidebar-blog',
+            'description'=> 'This is the Blog Sidebar. You can add your widgets here.',
+            'before_widgets'=> '<div class = "widget-wrapper>"',
+            'after_widgets'=> '</div>',
+            'before-title'=> '<h4 class="widget-title">',
+            'after-title'=> '</h4>',
+        )
+        );
+}
