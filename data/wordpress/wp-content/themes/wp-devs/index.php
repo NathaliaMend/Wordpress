@@ -30,6 +30,7 @@
                         <p>Nothing yet to be displayed!</p>
                     <?php endif; ?>
                 </div>
+                <?php get_sidebar(); ?>
             </div>
         </main>
     </div>

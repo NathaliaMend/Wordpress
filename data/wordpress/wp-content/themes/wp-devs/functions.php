@@ -42,7 +42,7 @@ function wpdevs_sidebars(){
             'name'=> 'Blog Sidebar',
             'id'=> 'sidebar-blog',
             'description'=> 'This is the Blog Sidebar. You can add your widgets here.',
-            'before_widgets'=> '<div class = "widget-wrapper>"',
+            'before_widgets'=> '<div class="widget-wrapper>"',
             'after_widgets'=> '</div>',
             'before-title'=> '<h4 class="widget-title">',
             'after-title'=> '</h4>',
