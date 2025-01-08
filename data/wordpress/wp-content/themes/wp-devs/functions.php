@@ -47,5 +47,41 @@ function wpdevs_sidebars(){
             'before-title'=> '<h4 class="widget-title">',
             'after-title'=> '</h4>',
         )
-        );
+    );
+
+    register_sidebar(
+        array(
+            'name'=> 'Service 1',
+            'id'=> 'service-1',
+            'description'=> 'First',
+            'before_widgets'=> '<div class="widget-wrapper>"',
+            'after_widgets'=> '</div>',
+            'before-title'=> '<h4 class="widget-title">',
+            'after-title'=> '</h4>',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name'=> 'Service 2',
+            'id'=> 'service-2',
+            'description'=> 'Second',
+            'before_widgets'=> '<div class="widget-wrapper>"',
+            'after_widgets'=> '</div>',
+            'before-title'=> '<h4 class="widget-title">',
+            'after-title'=> '</h4>',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name'=> 'Service 3',
+            'id'=> 'service-3',
+            'description'=> 'Second',
+            'before_widgets'=> '<div class="widget-wrapper>"',
+            'after_widgets'=> '</div>',
+            'before-title'=> '<h4 class="widget-title">',
+            'after-title'=> '</h4>',
+        )
+    );
 }
