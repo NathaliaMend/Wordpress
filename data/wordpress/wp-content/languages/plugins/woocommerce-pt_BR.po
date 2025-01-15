@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-29 18:43:57+0000\n"
+"PO-Revision-Date: 2025-01-08 19:37:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,150 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#: assets/client/blocks/product-filter-status/block.json
+msgctxt "block description"
+msgid "Let shoppers filter products by choosing stock status."
+msgstr "Permita que os clientes filtrem os produtos escolhendo o status do estoque."
+
+#: assets/client/blocks/product-filter-status/block.json
+msgctxt "block title"
+msgid "Status (Experimental)"
+msgstr "Status (Experimental)"
+
+#: assets/client/blocks/product-filter-removable-chips/block.json
+msgctxt "block description"
+msgid "Display removable active filters as chips."
+msgstr "Exiba filtros ativos removíveis como chips."
+
+#: assets/client/blocks/product-filter-rating/block.json
+msgctxt "block title"
+msgid "Rating (Experimental)"
+msgstr "Avaliação (Experimental)"
+
+#: assets/client/blocks/product-filter-price/block.json
+msgctxt "block description"
+msgid "Let shoppers filter products by choosing a price range."
+msgstr "Permita que os clientes filtrem os produtos escolhendo uma faixa de preço."
+
+#: assets/client/blocks/product-filter-price/block.json
+msgctxt "block title"
+msgid "Price (Experimental)"
+msgstr "Preço (Experimental)"
+
+#: assets/client/blocks/product-filter-price-slider/block.json
+msgctxt "block description"
+msgid "A slider helps shopper choose a price range."
+msgstr "Um controle deslizante ajuda o cliente a escolher uma faixa de preço."
+
+#: assets/client/blocks/product-filter-price-slider/block.json
+msgctxt "block title"
+msgid "Price Slider"
+msgstr "Controle deslizante de preço"
+
+#: assets/client/blocks/product-collection/block.json
+msgctxt "block keyword"
+msgid "by attribute"
+msgstr "por atributo"
+
+#: assets/client/blocks/product-collection/block.json
+msgctxt "block keyword"
+msgid "by tag"
+msgstr "por tag"
+
+#: assets/client/blocks/product-collection/block.json
+msgctxt "block keyword"
+msgid "all products"
+msgstr "todos os produtos"
+
+#: assets/client/blocks/cart-link/block.json
+msgctxt "block description"
+msgid "Display a link to the cart."
+msgstr "Exiba um link para o carrinho."
+
+#: assets/client/blocks/cart-link/block.json
+msgctxt "block title"
+msgid "Cart Link"
+msgstr "Link do carrinho"
+
+#: assets/client/admin/product-editor/blocks/generic/notice/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-notice-field/block.json
+msgctxt "block description"
+msgid "A notice field for use in the product editor."
+msgstr "Um campo de aviso para uso no editor de produtos."
+
+#: assets/client/admin/product-editor/blocks/generic/notice/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-notice-field/block.json
+msgctxt "block title"
+msgid "Product notice field"
+msgstr "Campo de aviso de produto"
+
+#: templates/single-product/add-to-cart/variable.php:61
+msgid "Clear options"
+msgstr "Limpar opções"
+
+#. translators: %1$s Action name, %2$s Order number.
+#: templates/myaccount/orders.php:81
+msgid "%1$s order number %2$s"
+msgstr "Número do pedido %1$s %2$s"
+
+#: templates/emails/customer-failed-order.php:35
+#: templates/emails/plain/customer-failed-order.php:29
+msgid "Your order details are as follows:"
+msgstr "Os detalhes do seu pedido são os seguintes"
+
+#. translators: %s: Site title
+#: templates/emails/customer-failed-order.php:34
+#: templates/emails/plain/customer-failed-order.php:28
+msgid "If you'd like to continue with your purchase, please return to %s and try a different method of payment."
+msgstr "Se você gostaria de continuar com sua compra, por favor, volte para %s e tente um método de pagamento diferente."
+
+#: templates/emails/customer-failed-order.php:32
+#: templates/emails/plain/customer-failed-order.php:26
+msgid "Unfortunately, we couldn't complete your order due to an issue with your payment method."
+msgstr "Infelizmente, não conseguimos completar seu pedido devido a um problema com o seu método de pagamento."
+
+#. translators: 1: product name 2: multiple of
+#: src/StoreApi/Utilities/QuantityLimits.php:158
+msgid "The quantity of &quot;%1$s&quot; must be a multiple of %2$s"
+msgstr "A quantidade de \"%1$s\" deve ser um múltiplo de %2$s"
+
+#. translators: 1: product name 2: maximum quantity
+#: src/StoreApi/Utilities/QuantityLimits.php:153
+msgid "The maximum quantity of &quot;%1$s&quot; allowed in the cart is %2$s"
+msgstr "A quantidade máxima de \"%1$s\" permitida no carrinho é %2$s"
+
+#. translators: 1: product name 2: minimum quantity
+#: src/StoreApi/Utilities/QuantityLimits.php:148
+msgid "The minimum quantity of &quot;%1$s&quot; allowed in the cart is %2$s"
+msgstr "A quantidade mínima de \"%1$s\" permitida no carrinho é %2$s"
+
+#. translators: 1: product name
+#: src/StoreApi/Utilities/QuantityLimits.php:143
+msgid "The quantity of &quot;%1$s&quot; cannot be changed"
+msgstr "A quantidade de \"%1$s\" não pode ser alterada"
+
+#: src/StoreApi/Utilities/CartController.php:518
+msgid "Cannot place an order, your cart is empty."
+msgstr "Não é possível realizar o pedido, seu carrinho está vazio."
+
+#: src/Internal/ReceiptRendering/ReceiptRenderingEngine.php:392
+msgid "Success"
+msgstr "Sucesso"
+
+#: src/Internal/ReceiptRendering/ReceiptRenderingEngine.php:391
+msgid "Payment status"
+msgstr "Status do pagamento"
+
+#: src/Internal/Orders/OrderActionsRestController.php:148
+msgid "Order details email sent to customer."
+msgstr "E-mail com os detalhes do pedido enviado para o cliente."
+
+#. translators: %1$s is the customer email, %2$s is the user agent that
+#. requested the action.
+#: src/Internal/Orders/OrderActionsRestController.php:137
+msgid "Order details sent to %1$s, via %2$s."
+msgstr "Detalhes do pedido enviados para %1$s, via %2$s"
 
 #: assets/client/blocks/product-image/block.json
 msgctxt "block title"
@@ -282,6 +426,11 @@ msgstr "Brands"
 msgid "Create an account with %s"
 msgstr "Crie uma conta com %s"
 
+#. Translators: %s Email address.
+#: includes/wc-user-functions.php:65
+msgid "An account is already registered with %s. Please log in or use a different email address."
+msgstr "Já existe uma conta cadastrada com %s. Faça o login ou use um endereço de e-mail diferente."
+
 #: assets/client/blocks/product-filters/block.json
 msgctxt "block title"
 msgid "Product Filters (Experimental)"
@@ -318,6 +467,11 @@ msgstr "Total"
 msgctxt "block title"
 msgid "Coming Soon"
 msgstr "Em breve"
+
+#. translators: %s: Order history URL on My Account section
+#: includes/class-wc-frontend-scripts.php:555
+msgid "There was an error processing your order. Please check for any charges in your payment method and review your <a href=\"%s\">order history</a> before placing the order again."
+msgstr "Houve um erro ao processar sua compra. Por favor verifique por qualquer cobrança no seu método de pagamento e revise o seu <a href=\"%s\">histórico de compra</a> antes de refazer a compra."
 
 #: src/Internal/ComingSoon/ComingSoonAdminBarBadge.php:55
 #: assets/client/admin/app/index.js:2
@@ -811,6 +965,36 @@ msgstr "Nenhum pedido que precise de limpeza"
 msgid "Order legacy data cleanup has been canceled."
 msgstr "A limpeza de dados legados do pedido foi cancelada."
 
+#: src/Internal/DataStores/Orders/LegacyDataCleanup.php:210
+msgid "Clear data"
+msgstr "Apagar os dados"
+
+#. translators: %s is an amount of computer disk space, e.g. 5 KB.
+#: src/Internal/Admin/Logging/Settings.php:329
+msgid "Directory size: %s"
+msgstr "Tamanho do diretório: %s"
+
+#. translators: %1$d is an order ID, %2$s and %3$s are datastore names ("hpos"
+#. or "posts" for example).
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:1220
+msgid "Order %1$d backfilled from %2$s to %3$s."
+msgstr "Pedido %1$d preenchido de %2$s a %3$s."
+
+#. translators: %s is a shell argument representing a datastore name.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:1188
+msgid "'%s' is not a valid datastore."
+msgstr "'%s' não é um armazenamento de dados válido."
+
+#. translators: %s: checkbox label.
+#: src/Blocks/BlockTypes/ProductFilterCheckboxList.php:71
+#: src/Blocks/InteractivityComponents/CheckboxList.php:54
+msgid "Checkbox: %s"
+msgstr "Caixa de seleção: %s"
+
+#: src/Blocks/BlockTypes/ProductGalleryLargeImageNextPrevious.php:113
+msgid "Next image"
+msgstr "Próxima imagem"
+
 #. translators: %1$d is an order ID, %2$s and %3$s are datastore names, %4$s is
 #. an error message.
 #: src/Database/Migrations/CustomOrderTable/CLIRunner.php:1208
@@ -871,6 +1055,80 @@ msgstr "Esta ferramenta limpará os dados das tabelas de pedidos legados no wooc
 #: src/Internal/DataStores/Orders/LegacyDataCleanup.php:226
 msgid "Clearing data..."
 msgstr "Limpar dados. . ."
+
+#. translators: %s is a generated error message.
+#: src/Blocks/AIContent/UpdateProducts.php:496
+msgid "The image upload failed: \"%s\", creating the product without image"
+msgstr "O upload da imagem falhou: \"%s\", criando o produto sem imagem"
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:735
+msgid "The size of the log directory."
+msgstr "O tamanho do diretório de log."
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:729
+msgid "Minimum severity level."
+msgstr "Nível mínimo de gravidade."
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1930
+msgid "Whether the coupon grants free shipping or not."
+msgstr "Se o cupom concede frete grátis ou não."
+
+#: includes/admin/views/html-admin-page-status-report.php:831
+msgid "The total size of the files in the log directory."
+msgstr "O tamanho total dos arquivos no diretório de log."
+
+#: includes/admin/views/html-admin-page-status-report.php:830
+msgid "Log directory size"
+msgstr "Tamanho do diretório de log"
+
+#: includes/admin/views/html-admin-page-status-report.php:801
+msgid "How log entries are being stored."
+msgstr "Como as entradas de log estão sendo armazenadas."
+
+#: includes/admin/views/html-admin-page-status-report.php:800
+msgid "Handler"
+msgstr "Manipulador"
+
+#: includes/admin/views/html-admin-page-status-report.php:796
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:711
+msgid "Is logging enabled?"
+msgstr "O registro está ativado?"
+
+#: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:165
+msgid "Create and save"
+msgstr "Criar e salvar"
+
+#: i18n/states.php:1224
+msgid "Zagora"
+msgstr "Zagora"
+
+#: i18n/states.php:1220
+msgid "Tiznit"
+msgstr "Tiznit"
+
+#: i18n/states.php:1219
+msgid "Tinghir"
+msgstr "Tinghir"
+
+#: i18n/states.php:1218
+msgid "Tétouan"
+msgstr "Tétouan"
+
+#: i18n/states.php:1217
+msgid "Taza"
+msgstr "Taza"
+
+#: i18n/states.php:1216
+msgid "Tata"
+msgstr "Tata"
+
+#: i18n/states.php:1215
+msgid "Taroudant"
+msgstr "Taroudant"
+
+#: i18n/states.php:1214
+msgid "Taounate"
+msgstr "Taounate"
 
 #: i18n/states.php:1172
 msgid "Al Haouz"
@@ -1705,6 +1963,19 @@ msgstr "Este é o valor vitalício do cliente ou o valor total que você ganhou 
 msgid "Origin"
 msgstr "Origem"
 
+#. translators: %s is the source value
+#: src/Internal/Traits/OrderAttributionMeta.php:288
+msgid "Organic: %s"
+msgstr "Orgânico: %s"
+
+#: src/Internal/ProductImage/MatchImageBySKU.php:68
+msgid "Match images"
+msgstr "Combinar imagens"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:466
+msgid "Products in this group"
+msgstr "Produtos neste grupo"
+
 #. translators: %1$s: Downloads settings link opening tag. %2$s: Downloads
 #. settings link closing tag.
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/DownloadableProductTrait.php:59
@@ -1779,6 +2050,51 @@ msgstr "Dispositivo móvel"
 msgid "Customer history"
 msgstr "Histórico do Cliente"
 
+#. Translators: %s order type name.
+#: src/Internal/Admin/Orders/Edit.php:247
+msgid "%s attribution"
+msgstr "%s atribuição"
+
+#: src/Internal/Admin/Logging/PageController.php:788
+msgid "Search within these files"
+msgstr "Pesquise nesses arquivos"
+
+#. translators: %s is a number of log files.
+#: src/Internal/Admin/Logging/LogHandlerFileV2.php:283
+msgid "%s expired log file was deleted."
+msgid_plural "%s expired log files were deleted."
+msgstr[0] "%s arquivo de log expirado foi excluído."
+msgstr[1] "%s arquivos de log expirados foram excluídos."
+
+#. translators: %s is a line number in a file.
+#: src/Internal/Admin/Logging/FileV2/SearchListTable.php:183
+msgid "Line %s"
+msgstr "Linha %s"
+
+#: src/Internal/Admin/Logging/FileV2/SearchListTable.php:141
+msgid "Line #"
+msgstr "Linha #"
+
+#: src/Internal/Admin/Logging/FileV2/FileExporter.php:63
+msgid "Could not access file."
+msgstr "Não foi possível acessar o arquivo."
+
+#: src/Internal/Admin/Logging/FileV2/FileController.php:531
+msgid "Could not access the specified files."
+msgstr "Não foi possível acessar os arquivos especificados."
+
+#. translators: %d is the number of orders that were cleaned up.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:1022
+msgid "Cleanup completed for %d order."
+msgid_plural "Cleanup completed for %d orders."
+msgstr[0] "Limpeza concluída para %d pedido."
+msgstr[1] "Limpeza concluída para %d pedidos."
+
+#. translators: %1$d is an order ID, %2$s is an error message.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:986
+msgid "An error occurred while cleaning up order %1$d: %2$s"
+msgstr "Ocorreu um erro ao limpar o pedido %1$d: %2$s"
+
 #. translators: %d is an order ID.
 #: src/Internal/DataStores/Orders/LegacyDataHandler.php:170
 msgid "%d is not a valid order ID."
@@ -1837,6 +2153,22 @@ msgstr "O campo %1$s é inválido para o local %2$s."
 #: src/Blocks/Domain/Services/CheckoutFields.php:952
 msgid "The field %s is invalid."
 msgstr "O campo %s é inválido."
+
+#: src/Admin/Features/ShippingPartnerSuggestions/DefaultShippingPartners.php:156
+msgid "Free Plan Available"
+msgstr "Plano gratuito disponível"
+
+#: src/Admin/Features/ShippingPartnerSuggestions/DefaultShippingPartners.php:148
+msgid "Branded tracking experience"
+msgstr "Experiência de rastreamento de marca"
+
+#: src/Admin/Features/ShippingPartnerSuggestions/DefaultShippingPartners.php:127
+msgid "Simplified shipping with: "
+msgstr "Envio simplificado com: "
+
+#: patterns/hero-product-split.php:30
+msgid "Shop the sale"
+msgstr "Compre a venda"
 
 #: src/Blocks/Domain/Services/OnboardingTasks/ReviewCheckoutTask.php:26
 msgid "Review your checkout experience"
@@ -1971,6 +2303,15 @@ msgstr "Contexto"
 msgid "Additional context"
 msgstr "Contexto adicional"
 
+#: includes/admin/helper/class-wc-helper-subscriptions-api.php:300
+msgid "This product is already installed."
+msgstr "Este produto já está instalado."
+
+#: includes/admin/class-wc-admin-status.php:340
+#: includes/admin/class-wc-admin-status.php:360
+msgid "You do not have permission to manage log entries."
+msgstr "Você não tem permissão para gerenciar entradas de log."
+
 #: includes/admin/helper/class-wc-helper-subscriptions-api.php:313
 msgid "There was an error getting the install URL for this product."
 msgstr "Houve um erro obtendo o url de instalação para este produto."
@@ -1979,6 +2320,11 @@ msgstr "Houve um erro obtendo o url de instalação para este produto."
 msgctxt "block title"
 msgid "No results"
 msgstr "Sem resultados"
+
+#: assets/client/blocks/product-collection-no-results/block.json
+msgctxt "block keyword"
+msgid "Product Collection"
+msgstr "Coleção de produtos"
 
 #: assets/client/blocks/product-collection-no-results/block.json
 msgctxt "block description"
@@ -2002,6 +2348,14 @@ msgstr "Este produto não acionará a calculadora de remessa do seu cliente no c
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:397
 msgid "Buy button"
 msgstr "Botão de comprar"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:415
+msgid "Link to the external product"
+msgstr "Link para o produto externo"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:398
+msgid "Add a link and choose a label for the button linked to a product sold elsewhere."
+msgstr "Adicione um link e escolha um rótulo para o botão vinculado a um produto vendido em outro lugar."
 
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:447
 msgid "Buy button text"
@@ -2058,6 +2412,47 @@ msgstr "Atual"
 #: src/Internal/Admin/Logging/PageController.php:605
 msgid "You do not have permission to manage log files."
 msgstr "Você não tem permissão para gerenciar arquivos de registros."
+
+#. translators: %s is a number of files.
+#: src/Internal/Admin/Logging/PageController.php:664
+msgid "%s log file deleted."
+msgid_plural "%s log files deleted."
+msgstr[0] "%s arquivo de log excluído."
+msgstr[1] "%s arquivos de log excluídos."
+
+#: src/Internal/Admin/Logging/PageController.php:323
+msgid "Delete this log file permanently?"
+msgstr "Excluir este arquivo de log permanentemente?"
+
+#. translators: 1. a date, 2. a slug-style name for a file.
+#: src/Internal/Admin/Logging/FileV2/FileListTable.php:244
+msgid "Select the %1$s log file for %2$s"
+msgstr "Selecione o arquivo de log %1$s para %2$s"
+
+#: src/Internal/Admin/Logging/FileV2/FileListTable.php:60
+msgid "No log files found."
+msgstr "Nenhum arquivo de log encontrado."
+
+#: src/Internal/Admin/Logging/FileV2/FileController.php:356
+msgid "This file does not exist."
+msgstr "Este arquivo não existe."
+
+#: src/Internal/Admin/Logging/FileV2/FileController.php:212
+#: src/Internal/Admin/Logging/FileV2/FileController.php:457
+msgid "Could not access the log file directory."
+msgstr "Não foi possível acessar o diretório do arquivo de log."
+
+#: src/StoreApi/Routes/V1/AI/Products.php:130
+msgid "Product content not found."
+msgstr "Conteúdo do produto não encontrado."
+
+#: src/Admin/API/AI/Patterns.php:45 src/StoreApi/Routes/V1/AI/Products.php:65
+msgid "The images for a given store."
+msgstr "As imagens de uma determinada loja."
+
+#: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:140
+msgid "Customers will need to spend this amount to get free shipping."
+msgstr "Os clientes precisarão gastar esse valor para obter frete grátis."
 
 #. translators: 1: WC_Logger::log 2: level
 #: src/Internal/Admin/BlockTemplates/BlockTemplateLogger.php:347
@@ -2116,6 +2511,19 @@ msgstr "Um valor mínimo de pedido E cupom"
 msgid "A minimum order amount OR coupon"
 msgstr "Um valor mínimo de pedido OU cupom"
 
+#: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:128
+msgid "No requirement"
+msgstr "Nenhum requisito"
+
+#: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:103
+#: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:99
+msgid "Please enter a valid number"
+msgstr "Por favor insira um número válido"
+
+#: includes/shipping/flat-rate/includes/settings-flat-rate.php:11
+msgid "advanced costs"
+msgstr "custos avançados"
+
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:1096
 msgid "Attribute terms."
 msgstr "Termos de atributo."
@@ -2159,6 +2567,15 @@ msgstr "Adicionar área"
 #: includes/admin/settings/class-wc-settings-shipping.php:52
 msgid "Classes"
 msgstr "Classes"
+
+#. translators: %s: shipping method title
+#: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:144
+msgid "Set up %s"
+msgstr "Configurar %s"
+
+#: includes/admin/settings/views/html-admin-page-shipping-classes.php:80
+msgid "Slug (unique identifier) can be left blank and auto-generated, or you can enter one"
+msgstr "Slug (identificador exclusivo) pode ser deixado em branco e gerado automaticamente, ou você pode inserir um"
 
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:158
 msgid "Add shipping class costs"
@@ -2226,6 +2643,22 @@ msgstr "Este produto foi ativado."
 msgid "There was an error activating this theme."
 msgstr "Houve um erro ao ativar este tema."
 
+#: includes/admin/helper/class-wc-helper-subscriptions-api.php:244
+msgid "This product is already active."
+msgstr "Este produto já está ativo."
+
+#: includes/admin/helper/class-wc-helper-subscriptions-api.php:235
+msgid "This product is not installed."
+msgstr "Este produto não está instalado."
+
+#: includes/admin/helper/class-wc-helper-subscriptions-api.php:200
+msgid "Your subscription has been disconnected."
+msgstr "Sua assinatura foi desconectada."
+
+#: includes/admin/helper/class-wc-helper-subscriptions-api.php:167
+msgid "Your subscription has been connected."
+msgstr "Sua assinatura foi conectada."
+
 #: includes/admin/helper/class-wc-helper-subscriptions-api.php:254
 msgid "There was an error activating this plugin."
 msgstr "Houve um erro de ativação deste plug -in."
@@ -2253,11 +2686,72 @@ msgctxt "block description"
 msgid "Displays WooCommerce page content."
 msgstr "Exibe o conteúdo da página do woocommerce."
 
+#: assets/client/blocks/order-confirmation-summary/block.json
+msgctxt "block description"
+msgid "Display the order summary on the order confirmation page."
+msgstr "Exiba o resumo do pedido na página de confirmação do pedido."
+
+#: assets/client/blocks/order-confirmation-shipping-wrapper/block.json
+msgctxt "block description"
+msgid "Display the order confirmation shipping section."
+msgstr "Exiba a seção de envio de confirmação do pedido."
+
+#: assets/client/blocks/order-confirmation-downloads/block.json
+msgctxt "block description"
+msgid "Display links to purchased downloads."
+msgstr "Exibir links para downloads adquiridos."
+
+#: assets/client/blocks/order-confirmation-downloads-wrapper/block.json
+msgctxt "block description"
+msgid "Display the downloadable products section."
+msgstr "Exiba a seção de produtos para download."
+
+#: assets/client/blocks/order-confirmation-additional-information/block.json
+msgctxt "block description"
+msgid "Displays additional information provided by third-party extensions for the current order."
+msgstr "Exibe informações adicionais fornecidas por extensões de terceiros para o pedido atual."
+
+#: assets/client/admin/product-editor/blocks/generic/number/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-number-field/block.json
+msgctxt "block title"
+msgid "Product number control"
+msgstr "Controle do número do produto"
+
+#: assets/client/admin/product-editor/blocks/generic/checkbox/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-checkbox-field/block.json
+msgctxt "block description"
+msgid "A reusable checkbox for the product editor."
+msgstr "Uma caixa de seleção reutilizável para o editor de produto."
+
+#: assets/client/admin/product-editor/blocks/product-fields/downloads/block.json
+#: assets/client/admin/product-editor/blocks/product-fields/product-downloads-field/block.json
+msgctxt "block keyword"
+msgid "downloads"
+msgstr "baixar"
+
+#: assets/client/admin/product-editor/blocks/product-fields/downloads/block.json
+#: assets/client/admin/product-editor/blocks/product-fields/product-downloads-field/block.json
+msgctxt "block description"
+msgid "The product downloads."
+msgstr "Os downloads do produto."
+
+#: assets/client/admin/product-editor/blocks/product-fields/downloads/block.json
+#: assets/client/admin/product-editor/blocks/product-fields/product-downloads-field/block.json
+msgctxt "block title"
+msgid "Product downloads"
+msgstr "Downloads de produtos"
+
 #: assets/client/admin/product-editor/blocks/generic/product-text-field/block.json
 #: assets/client/admin/product-editor/blocks/generic/text/block.json
 msgctxt "block keyword"
 msgid "text"
 msgstr "texto"
+
+#: assets/client/admin/product-editor/blocks/generic/product-text-field/block.json
+#: assets/client/admin/product-editor/blocks/generic/text/block.json
+msgctxt "block description"
+msgid "A text field for use in the product editor."
+msgstr "Um campo de texto para uso no editor de produto."
 
 #: assets/client/admin/product-editor/blocks/generic/product-text-field/block.json
 #: assets/client/admin/product-editor/blocks/generic/text/block.json
@@ -2270,6 +2764,12 @@ msgstr "Campo de texto do produto"
 msgctxt "block keyword"
 msgid "number"
 msgstr "número"
+
+#: assets/client/admin/product-editor/blocks/generic/number/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-number-field/block.json
+msgctxt "block description"
+msgid "A reusable number field for the product editor."
+msgstr "Um campo numérico reutilizável para o editor de produto."
 
 #: assets/client/blocks/order-confirmation-additional-information/block.json
 msgctxt "block title"
@@ -2362,19 +2862,28 @@ msgstr "Página de woocommerce"
 msgid "days"
 msgstr "dias"
 
+#: src/Blocks/BlockTypes/ProductGalleryThumbnails.php:59
+#: assets/client/admin/chunks/marketplace.js:1
+msgid "View all"
+msgstr "Ver tudo"
+
 #: src/Internal/Admin/Logging/PageController.php:430
 msgid "Search results"
 msgstr "Procurar resultados"
 
-#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:1083
-msgid "Add and manage attributes used for product options, such as size and color."
-msgstr "Adicione e gerencie atributos usados para opções de produto, como tamanho e cor."
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:122
+msgid "Variation details"
+msgstr "Detalhes da variação"
 
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:109
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:282
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:425
 msgid "<strong>You’re editing details specific to this variation.</strong> Some information, like description and images, will be inherited from the main product, <noticeLink><parentProductName/></noticeLink>."
 msgstr "<strong> você está editando detalhes específicos para essa variação. </strong> algumas informações, como descrição e imagens, serão herdadas do produto principal, <ticelink> <parentproductname/</noticelink>."
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:1083
+msgid "Add and manage attributes used for product options, such as size and color."
+msgstr "Adicione e gerencie atributos usados para opções de produto, como tamanho e cor."
 
 #: src/Internal/DataStores/Orders/CustomOrdersTableController.php:651
 msgid "Background sync is enabled."
@@ -2403,6 +2912,46 @@ msgstr "Modelo de variação do produto"
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:60
 msgid "Template for the product variation form"
 msgstr "Modelo para o formulário de variação do produto"
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:23
+msgid "The item type."
+msgstr "O tipo de item."
+
+#: src/Blocks/AIContent/UpdateProducts.php:125
+msgid "Failed to fetch dummy products."
+msgstr "Falha ao buscar produtos fictícios."
+
+#: src/Blocks/AIContent/UpdatePatterns.php:73
+msgid "Failed to update patterns content."
+msgstr "Falha ao atualizar o conteúdo dos padrões."
+
+#: src/Blocks/AIContent/UpdatePatterns.php:61
+msgid "Failed to set the pattern content."
+msgstr "Falha ao definir o conteúdo do padrão."
+
+#: src/Blocks/AIContent/PatternsHelper.php:100
+#: src/Blocks/AIContent/UpdatePatterns.php:410
+msgid "The patterns dictionary is missing."
+msgstr "O dicionário de padrões está faltando."
+
+#: src/Blocks/Images/Pexels.php:127 src/Blocks/Images/Pexels.php:131
+msgid "The search term definition failed."
+msgstr "A definição do termo de pesquisa falhou."
+
+#: src/Blocks/BlockTypes/OrderConfirmation/Status.php:123
+#: assets/client/admin/chunks/marketplace.js:1
+#: assets/client/admin/product-editor/index.js:2
+msgid "Try again"
+msgstr "Tente novamente"
+
+#. translators: %s: date and time of the order refund.
+#: src/Blocks/BlockTypes/OrderConfirmation/Status.php:103
+msgid "Your order was refunded %s."
+msgstr "Seu pedido foi reembolsado %s."
+
+#: src/Blocks/BlockTypes/OrderConfirmation/Status.php:91
+msgid "Your order has been cancelled."
+msgstr "Seu pedido foi cancelado."
 
 #: src/Admin/API/AI/Middleware.php:39 src/Blocks/Patterns/AIPatterns.php:141
 #: src/StoreApi/Routes/V1/AI/Middleware.php:39
@@ -2486,6 +3035,42 @@ msgstr "Você não tem permissão para fazer essa solicitação. certifique -se 
 msgid "Your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
 msgstr "Seu pedido não pode ser processado, pois o banco/comerciante de origem recusou sua transação. por favor, tente sua compra novamente."
 
+#: patterns/social-follow-us-in-social-media.php:84
+msgid "Placeholder image used to represent products being showcased under the social media icons. 4 out of 4."
+msgstr "Imagem de espaço reservado usada para representar produtos exibidos sob os ícones de mídia social. 4 de 4."
+
+#: patterns/social-follow-us-in-social-media.php:74
+msgid "Placeholder image used to represent products being showcased under the social media icons. 3 out of 4."
+msgstr "Imagem de espaço reservado usada para representar produtos exibidos sob os ícones de mídia social. 3 de 4."
+
+#: patterns/social-follow-us-in-social-media.php:64
+msgid "Placeholder image used to represent products being showcased under the social media icons. 2 out of 4."
+msgstr "Imagem de espaço reservado usada para representar produtos exibidos sob os ícones de mídia social. 2 de 4."
+
+#: patterns/social-follow-us-in-social-media.php:54
+msgid "Placeholder image used to represent products being showcased under the social media icons. 1 out of 4."
+msgstr "Imagem de espaço reservado usada para representar produtos exibidos sob os ícones de mídia social. 1 em 4."
+
+#: patterns/hero-product-3-split.php:35
+msgid "Placeholder image used to represent a product being showcased."
+msgstr "Imagem de espaço reservado usada para representar um produto em exibição."
+
+#: patterns/footer-large.php:23
+msgid "Learn about new products and discounts"
+msgstr "Saiba mais sobre novos produtos e descontos"
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:1092
+msgid "Attribute term."
+msgstr "Termo de atributo."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:1081
+msgid "Limit result set to products with specified attributes."
+msgstr "Limite o conjunto de resultados a produtos com atributos especificados."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:54
+msgid "Default values for generated variations."
+msgstr "Valores padrão para variações geradas."
+
 #: src/Blocks/AI/Connection.php:55 src/Blocks/AI/Connection.php:105
 msgid "Failed to connect with the AI endpoint: try again later."
 msgstr "Falha ao se conectar com o terminal da ia: tente novamente mais tarde."
@@ -2506,11 +3091,39 @@ msgstr "Falhou em gerar o token jwt"
 msgid "Failed to retrieve the JWT token: Try again later."
 msgstr "Falha ao recuperar o token jwt: tente novamente mais tarde."
 
+#: includes/admin/class-wc-admin-webhooks-table-list.php:217
+msgid "Legacy"
+msgstr "Legado"
+
+#. Translators: %s Page contents.
+#: includes/admin/settings/class-wc-settings-advanced.php:94
+msgid "Page where shoppers go to finalize their purchase"
+msgstr "Página onde os compradores vão finalizar sua compra"
+
+#. Translators: %s Page contents.
+#: includes/admin/settings/class-wc-settings-advanced.php:74
+msgid "Page where shoppers review their shopping cart"
+msgstr "Página onde os compradores revisam seu carrinho de compras"
+
+#. translators: Placeholders are URLs.
+#: includes/admin/class-wc-admin-notices.php:178
+msgid "⚠️ The WooCommerce Legacy REST API has been removed from WooCommerce, this will cause <a href=\"%1$s\">webhooks on this site that are configured to use the Legacy REST API</a> to stop working. <a target=\"_blank\" href=\"%2$s\">A separate WooCommerce extension is available</a> to allow these webhooks to keep using the Legacy REST API without interruption. You can also edit these webhooks to use the current REST API version to generate the payload instead. <b><a target=\"_blank\" href=\"%3$s\">Learn more about this change.</a></b>"
+msgstr "A api rest legacy woocommerce será removida no woocommerce 9. 0, e isso causará webhooks <a href=\"%1$s\"> webhooks neste site que estão configurados para usar a api rest legacy </a> para parar de funcionar. <a target=\"_blank\" href=\"%2$s\"> uma extensão woocommerce separada está disponível </a> para permitir que esses webhooks continuem usando a api rest legacy sem interrupção. você também pode editar esses webhooks para usar a versão atual da api rest para gerar a carga útil. <b> <a target=\"_blank\" href=\"%3$s\"> saiba mais sobre essa mudança. </a> </b>"
+
+#: includes/admin/class-wc-admin-notices.php:174
+msgid "WooCommerce webhooks that use the Legacy REST API are unsupported"
+msgstr "Woocommerce webhooks que usam a api rest legacy não serão suportados em breve"
+
 #: assets/client/admin/product-editor/blocks/generic/product-taxonomy-field/block.json
 #: assets/client/admin/product-editor/blocks/generic/taxonomy/block.json
 msgctxt "block keyword"
 msgid "taxonomy"
 msgstr "taxonomia"
+
+#: assets/client/blocks/product-gallery-large-image-next-previous/block.json
+msgctxt "block title"
+msgid "Next/Previous Buttons"
+msgstr "Botões Próximo/Anterior"
 
 #: assets/client/admin/product-editor/blocks/generic/product-taxonomy-field/block.json
 #: assets/client/admin/product-editor/blocks/generic/taxonomy/block.json
@@ -2518,10 +3131,120 @@ msgctxt "block title"
 msgid "Taxonomy"
 msgstr "Taxonomia"
 
+#: assets/client/admin/product-editor/blocks/product-fields/product-tag-field/block.json
+#: assets/client/admin/product-editor/blocks/product-fields/tag/block.json
+msgctxt "block title"
+msgid "Product Tag"
+msgstr "Tag do produto"
+
+#: assets/client/blocks/product-gallery-pager/block.json
+msgctxt "block description"
+msgid "Display the gallery pager."
+msgstr "Exibir a coleção da galeria."
+
+#: assets/client/blocks/product-gallery-large-image-next-previous/block.json
+msgctxt "block description"
+msgid "Display next and previous buttons."
+msgstr "Exibir botões de próximo e anterior."
+
+#: assets/client/admin/product-editor/blocks/generic/product-taxonomy-field/block.json
+#: assets/client/admin/product-editor/blocks/generic/taxonomy/block.json
+msgctxt "block description"
+msgid "A block that displays a taxonomy field, allowing searching, selection, and creation of new items"
+msgstr "Um bloco que exibe um campo de taxonomia, permitindo a pesquisa, seleção e criação de novos itens"
+
+#: assets/client/blocks/product-gallery-pager/block.json
+msgctxt "block title"
+msgid "Pager"
+msgstr "Pager"
+
+#: src/Blocks/BlockTypes/ProductDetails.php:28
+#: assets/client/admin/chunks/customize-store.js:1
+msgid "Classic"
+msgstr "Clássico"
+
+#: src/Internal/Features/FeaturesController.php:206
+msgid "New, faster way to find extensions and themes for your WooCommerce store"
+msgstr "Maneira nova e mais rápida de encontrar extensões e temas para sua loja WooCommerce"
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:603
+msgid "High-performance order storage (recommended)"
+msgstr "Armazenamento de pedidos de alto desempenho (recomendado)"
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:602
+msgid "WordPress posts storage (legacy)"
+msgstr "Armazenamento de postagens do WordPress (legado)"
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:599
+msgid "Order data storage"
+msgstr "Solicitar armazenamento de dados"
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:896
+msgid "HPOS disabled."
+msgstr "HPOS desabilitado."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:894
+msgid "HPOS could not be disabled."
+msgstr "O HPOS não pôde ser desativado."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:890
+msgid "HPOS is already disabled."
+msgstr "O HPOS já está desativado."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:869
+msgid "Running pre-disable checks..."
+msgstr "Executando verificações de pré-desativação..."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:837
+msgid "HPOS could not be enabled."
+msgstr "Não foi possível ativar o HPOS."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:835
+msgid "HPOS enabled."
+msgstr "HPOS ativado."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:831
+msgid "HPOS is already enabled."
+msgstr "O HPOS já está habilitado."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:824
+msgid "HPOS pre-checks failed, please see the errors above"
+msgstr "As pré-verificações do HPOS falharam, veja os erros acima"
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:796
+msgid "Orders table created."
+msgstr "Tabela de pedidos criada."
+
 #. translators: %s: Search query.
 #: src/Internal/Admin/Orders/ListTable.php:240
 msgid "Search results for: %s"
 msgstr "Pesquisar resultados para: %s"
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:799
+msgid "[Failed] Orders table could not be created."
+msgstr "[falha] a tabela de pedidos não pôde ser criada."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:781
+msgid "[Failed] Some installed plugins are incompatible. Please review the plugins by going to WooCommerce > Settings > Advanced > Features and see the \"Order data storage\" section."
+msgstr "[falha] alguns plug -ins instalados são incompatíveis. revise os plugins indo para woocommerce> configurações> recursos avançados> e consulte a seção \"order storage\"."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:803
+msgid "[Failed] The orders table does not exist and this is not a new shop. Please create the table by going to WooCommerce > Settings > Advanced > Features and enabling sync."
+msgstr "[falhou] a tabela de pedidos não existe e essa não é uma nova loja. crie a tabela indo para woocommerce> configurações> recursos avançados e sincronizando."
+
+#. translators: %s is the command to run (wp wc cot sync).
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:812
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:878
+msgid "[Failed] There are orders pending sync. Please run `%s` to sync pending orders."
+msgstr "[falhou] existem ordens pendentes de sincronização. por favor, execute `%s` para sincronizar pedidos pendentes."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:769
+msgid "[Failed] This is not a new shop, but --for-new-shop flag was passed."
+msgstr "[falhou] esta não é uma nova loja, mas a bandeira-para nova foto foi aprovada."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:792
+msgid "Orders table does not exist. Creating..."
+msgstr "A tabela de pedidos não existe. criando . . ."
 
 #: includes/admin/meta-boxes/views/html-product-attribute-inner.php:51
 msgid "Select values"
@@ -2543,9 +3266,77 @@ msgstr "Modelo de produto simples"
 msgid "Create new category"
 msgstr "Criar nova categoria"
 
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:765
+msgid "Running pre-enable checks..."
+msgstr "Executando verificações de pré-ativação..."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:353
+msgid "Orders table does not exist."
+msgstr "A tabela de pedidos não existe."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:188
+msgid "Custom order tables could not be created."
+msgstr "Não foi possível criar tabelas de pedidos personalizados."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:186
+msgid "Custom order tables were created successfully."
+msgstr "As tabelas de pedidos personalizados foram criadas com sucesso."
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:183
+msgid "Custom order tables does not exist, creating..."
+msgstr "Não existem tabelas de pedidos personalizados, criando..."
+
+#. translators: %1$s: Learn more link opening tag. %2$s: Learn more link
+#. closing tag.
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:363
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:802
+msgid "Per your %1$sstore settings%2$s, inventory management is <strong>disabled</strong>."
+msgstr "De acordo com as %1$sconfigurações da loja%2$s, o gerenciamento de inventário está <strong>desativado</strong>."
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:546
+msgid "Shown to customers on the product page."
+msgstr "Mostrado aos clientes na página do produto."
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:61
+msgid "Template for the simple product form"
+msgstr "Modelo para formulário de produto simples"
+
+#: src/Admin/Features/OnboardingTasks/Tasks/TourInAppMarketplace.php:26
+msgid "Discover ways of extending your store with a tour of the Woo Marketplace"
+msgstr "Descubra maneiras de ampliar sua loja com um tour pelo Woo Marketplace"
+
+#: src/Admin/Features/OnboardingTasks/Tasks/CustomizeStore.php:148
+msgid "The theme you are currently using is not compatible."
+msgstr "O tema que você está usando atualmente não é compatível."
+
+#: src/Blocks/Images/Pexels.php:213
+msgid "Request to the Pexels API failed."
+msgstr "Falha na solicitação à API Pexels."
+
+#: patterns/testimonials-single.php:25
+msgid "Placeholder image with the avatar of the user who is writing the testimonial."
+msgstr "Imagem de espaço reservado com o avatar do usuário que está escrevendo o depoimento."
+
+#: includes/wc-core-functions.php:654
+msgid "Venezuelan bol&iacute;var (2008–2018)"
+msgstr "Bolívar venezuelano (2008–2018)"
+
+#: includes/gateways/bacs/class-wc-gateway-bacs.php:149
+msgid "These account details will be displayed within the order thank you page and confirmation email."
+msgstr "Esses detalhes da conta serão exibidos na página de agradecimento do pedido e no e-mail de confirmação."
+
+#. translators: %s: WC_DELIMITER
+#: includes/admin/class-wc-admin-assets.php:443
+msgid "Enter some descriptive text. Use “%s” to separate different values."
+msgstr "Insira algum texto descritivo. Use “%s” para separar valores diferentes."
+
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:1074
 msgid "Limit result set to products with or without price."
 msgstr "Limite os resultados para produtos com ou sem preço."
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:49
+msgid "Choose a theme that best fits your brand's look and feel, then make it your own. Change the colors, add your logo, and create pages."
+msgstr "Escolha um tema que melhor se encaixe na aparência e na sensação da sua marca e faça -a sua. altere as cores, adicione seu logotipo e crie páginas."
 
 #: assets/client/blocks/product-gallery-thumbnails/block.json
 msgctxt "block description"
@@ -2694,6 +3485,94 @@ msgctxt "block title"
 msgid "Notice"
 msgstr "Aviso"
 
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:551
+msgid "Save time on content creation — unlock high-quality blog posts and pages using AI."
+msgstr "Economize tempo na criação de conteúdo-desbloqueie postagens e páginas de blog de alta qualidade usando a ia."
+
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:549
+msgid "Boost content creation with Jetpack AI Assistant"
+msgstr "Aumente a criação de conteúdo com o jetpack ai assistant"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:160
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:711
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:996
+msgid "Go to Variations"
+msgstr "Vá para variações"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:578
+#: assets/client/admin/product-editor/index.js:2
+msgid "Hide from search results"
+msgstr "Esconda -se dos resultados da pesquisa"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:232
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:567
+#: assets/client/admin/product-editor/index.js:2
+msgid "Hide in product catalog"
+msgstr "Esconder no catálogo de produtos"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:600
+#: assets/client/admin/product-editor/index.js:2
+msgid "Require a password"
+msgstr "Requer uma senha"
+
+#: src/StoreApi/Utilities/OrderAuthorizationTrait.php:59
+msgid "Invalid billing email provided."
+msgstr "Email de cobrança inválido fornecido."
+
+#: src/StoreApi/Utilities/OrderController.php:578
+msgid "Invalid order ID or key provided."
+msgstr "Id de ordem inválida ou chave fornecida."
+
+#: src/StoreApi/Schemas/V1/OrderSchema.php:130
+msgid "Order totals."
+msgstr "Total de pedido."
+
+#: src/StoreApi/Schemas/V1/OrderSchema.php:294
+msgid "Status of the order."
+msgstr "Status da ordem."
+
+#: src/StoreApi/Schemas/V1/OrderSchema.php:138
+msgid "Subtotal of the order."
+msgstr "Subtotal da ordem."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:29
+msgid "The item product or variation ID."
+msgstr "O produto do item ou id de variação."
+
+#: src/Blocks/Templates/MiniCartTemplate.php:60
+msgid "The Mini-Cart template allows shoppers to see their cart items and provides access to the Cart and Checkout pages."
+msgstr "O modelo mini-cart permite que os compradores vejam seus itens de carrinho e fornecem acesso às páginas do carrinho e checkout."
+
+#: src/StoreApi/Schemas/V1/OrderSchema.php:180
+msgid "Total price of items in the order."
+msgstr "Preço total dos itens no pedido."
+
+#: src/StoreApi/Schemas/V1/OrderSchema.php:186
+msgid "Total tax on items in the order."
+msgstr "Imposto total sobre itens no pedido."
+
+#: src/StoreApi/Schemas/V1/OrderFeeSchema.php:30
+msgid "Unique identifier for the fee within the cart"
+msgstr "Identificador único para a taxa dentro do carrinho"
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:17
+msgid "Unique identifier for the item."
+msgstr "Identificador exclusivo para o item."
+
+#. translators: 1: action ID 2: exception message.
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:514
+msgid "Action Scheduler was unable to delete action %1$d. Reason: %2$s"
+msgstr "O Action Scheduler não conseguiu excluir a ação %1$d. motivo: %2$s"
+
+#: includes/rest-api/Controllers/Telemetry/class-wc-rest-telemetry-controller.php:165
+msgid "Installation date of the WooCommerce mobile app."
+msgstr "Data de instalação do aplicativo móvel woocommerce."
+
+#. translators: %s database error.
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:948
+msgid "Unable to claim actions. Database error: %s."
+msgstr "Incapaz de reivindicar ações. erro do banco de dados: %s."
+
 #: assets/client/blocks/customer-account/block.json
 msgctxt "block keyword"
 msgid "My Account"
@@ -2712,10 +3591,45 @@ msgctxt "block description"
 msgid "Display the average rating of a product with stars"
 msgstr "Mostrar a média de avaliações do produto com estrelas"
 
+#: assets/client/blocks/product-gallery/block.json
+msgctxt "block description"
+msgid "Showcase your products relevant images and media."
+msgstr "Mostre seus produtos imagens e mídia relevantes."
+
+#: assets/client/blocks/product-rating-stars/block.json
+msgctxt "block title"
+msgid "Product Rating Stars"
+msgstr "Estrelas de classificação de produtos"
+
 #: assets/client/blocks/product-price/block.json
 msgctxt "block title"
 msgid "Product Price"
 msgstr "Preço do produto"
+
+#. translators: %1$s opening link tag %2$s closing link tag.
+#: src/Utilities/PluginUtil.php:305
+msgid "%1$sView and manage%2$s"
+msgstr "%1sview e gerenciar%2s"
+
+#. translators: %s: number of pending orders.
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:657
+msgid "Currently syncing orders... %s pending"
+msgstr "Atualmente sincronizando ordens . . . %d pendente"
+
+#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:38
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:535
+msgid "Get paid with WooPayments"
+msgstr "Ser pago com woopayments"
+
+#. translators: %s = printable plugin name
+#: src/Utilities/PluginUtil.php:272
+msgid "⚠ 1 Incompatible plugin detected (%s)."
+msgstr "⚠ 1 plug -in incompatível detectado (%s)."
+
+#. translators: %1\$s, %2\$s = printable plugin names
+#: src/Utilities/PluginUtil.php:276
+msgid "⚠ 2 Incompatible plugins detected (%1$s and %2$s)."
+msgstr "⚠ 2 plugins incompatíveis detectados ( %1s e %2s)."
 
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:197
 #: assets/client/admin/chunks/multichannel-marketing.js:1
@@ -2727,6 +3641,52 @@ msgstr "Klaviyo"
 msgctxt "block title"
 msgid "Newest Products"
 msgstr "Produtos mais recentes"
+
+#: assets/client/blocks/product-new/block.json
+msgctxt "block description"
+msgid "Display a grid of your newest products."
+msgstr "Exiba uma grade de seus produtos mais recentes."
+
+#: assets/client/blocks/product-top-rated/block.json
+msgctxt "block description"
+msgid "Display a grid of your top rated products."
+msgstr "Exiba uma grade de seus produtos mais recentes."
+
+#: assets/client/blocks/product-top-rated/block.json
+msgctxt "block title"
+msgid "Top Rated Products"
+msgstr "Produtos mais avaliados"
+
+#: assets/client/blocks/product-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render a product."
+msgstr "Contém os elementos de bloco usados para renderizar um produto."
+
+#: assets/client/blocks/product-template/block.json
+msgctxt "block title"
+msgid "Product Template"
+msgstr "Template de produto"
+
+#: assets/client/blocks/product-collection/block.json
+msgctxt "block description"
+msgid "Display a collection of products from your store."
+msgstr "Exiba uma coleção de produtos de sua loja."
+
+#: assets/client/admin/product-editor/blocks/generic/product-subsection/block.json
+#: assets/client/admin/product-editor/blocks/generic/subsection/block.json
+msgctxt "block title"
+msgid "Product subsection"
+msgstr "Coleção de produto"
+
+#: assets/client/blocks/product-rating/block.json
+msgctxt "block description"
+msgid "Display the average rating of a product."
+msgstr "Exiba a classificação média de um produto."
+
+#: assets/client/blocks/product-rating/block.json
+msgctxt "block title"
+msgid "Product Rating"
+msgstr "Avaliação do produto"
 
 #. translators: %s: Taxonomy name.
 #: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2073
@@ -2783,6 +3743,39 @@ msgstr "A descrição do produto."
 msgctxt "block title"
 msgid "Product description"
 msgstr "Descrição do produto"
+
+#: includes/wc-core-functions.php:1638
+msgctxt "Name of credit card"
+msgid "Visa"
+msgstr "Visa"
+
+#: includes/wc-core-functions.php:1637
+msgctxt "Name of credit card"
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#: includes/wc-account-functions.php:110
+msgid "Log out"
+msgstr "Sair"
+
+#: includes/class-wc-product-variable.php:67
+msgid "This product has multiple variants. The options may be chosen on the product page"
+msgstr "Este produto tem várias variantes. As opções podem ser escolhidas na página do produto"
+
+#. translators: %d: products count
+#: includes/admin/importers/views/html-csv-import-done.php:36
+msgid "%s variations imported"
+msgid_plural "%s variations imported"
+msgstr[0] "%s variação importada"
+msgstr[1] "%s variações importadas"
+
+#: includes/admin/class-wc-admin-assets.php:441
+msgid "Adding new attribute failed."
+msgstr "Adição de novo atributo falhou."
+
+#: includes/admin/class-wc-admin-assets.php:306
+msgid "%qty% variations added"
+msgstr "%qty% variações adicionadas"
 
 #. translators: Footer powered by text. %1$s being WordPress, %2$s being
 #. WooCommerce
@@ -6384,7 +7377,7 @@ msgstr "A data que foi realizado o último pedido para este produto, no fuso hor
 msgid "The discount type for the coupon (e.g. percentage or fixed amount)"
 msgstr "O tipo de desconto para o cupom (ex. porcentagem ou valor fixo)"
 
-#: src/StoreApi/Routes/V1/Checkout.php:485
+#: src/StoreApi/Routes/V1/Checkout.php:501
 msgid "Unable to create order"
 msgstr "Não é possível criar um pedido"
 
@@ -8788,7 +9781,7 @@ msgstr "Limita os resultados para produtos com base em um preço mínimo, fornec
 msgid "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
 msgstr "Limita os resultados para produtos com base em um preço máximo, fornecido com a menor unidade da moeda."
 
-#: src/StoreApi/Routes/V1/Checkout.php:566
+#: src/StoreApi/Routes/V1/Checkout.php:582
 #: src/StoreApi/Routes/V1/CheckoutOrder.php:244
 msgid "No payment method provided."
 msgstr "Nenhum método de pagamento fornecido."
@@ -13987,7 +14980,6 @@ msgstr "Digite um endereço diferente"
 msgid "Enter your address to view shipping options."
 msgstr "Digite seu endereço para ver as opções de entrega."
 
-#. Translators: $s shipping destination.
 #: templates/cart/cart-shipping.php:52 assets/client/blocks/cart.js:33
 #: assets/client/blocks/checkout.js:18
 #: assets/client/blocks/wc-cart-checkout-base-frontend.js:30
@@ -14067,7 +15059,7 @@ msgstr "Pedido cancelado: #{order_number}"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1887
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2364
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:812
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:819
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1867
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:639
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1103
@@ -14670,7 +15662,6 @@ msgstr[1] "%d chaves API revogadas permanentemente."
 msgid "Apartment, suite, unit, etc."
 msgstr "Apartamento, suíte, unidade, etc."
 
-#. Translators: %d parent ID.
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:329
 msgid "Cannot set attributes due to invalid parent product."
 msgstr "Não é possível definir atributos devido ao produto ascendente ser inválido."
@@ -16792,12 +17783,12 @@ msgstr "Rublo bielorrusso (antigo)"
 msgid "New payment methods can only be added during checkout. Please contact us if you require assistance."
 msgstr "Novos meios de pagamento só podem ser adicionados durante a finalização de compra. Fale conosco se você precisar de assistência."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:770
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:777
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1819
 msgid "End date of sale price, as GMT."
 msgstr "Data final do preço promocional, em GMT."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:781
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:788
 msgid "Define if the variation is visible on the product's page."
 msgstr "Define se a variação deve ser visível na página do produto."
 
@@ -19331,12 +20322,12 @@ msgstr "Pedido inválido"
 msgid "In order for <strong>database caching</strong> to work with WooCommerce you must add %1$s to the \"Ignored Query Strings\" option in <a href=\"%2$s\">W3 Total Cache settings</a>."
 msgstr "Para que o <strong>cache do banco de dados</strong> funcione com o WooCommerce você deve adicionar %1$s à opção \"Ignored Query Strings\" nas <a href=\"%2$s\">configurações do W3 Total Cache</a>."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:697
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:755
 msgid "The date of the customer last order, as GMT."
 msgstr "A data da última compra do cliente, em GMT."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:638
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:158
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:696
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:168
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:64
 msgid "The date the customer was created, as GMT."
 msgstr "A data em que o cliente foi cadastrado, em GMT."
@@ -19361,8 +20352,8 @@ msgstr "ID inválido de avaliação de produto."
 msgid "Updating product review failed."
 msgstr "Falha ao atualizar a avaliação do produto."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:383
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:404
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:441
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:462
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:274
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:307
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:438
@@ -19381,7 +20372,7 @@ msgstr "Não foi possível atualizar o atributo."
 msgid "Creating product review failed."
 msgstr "Falha ao criar avaliação de produto."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:345
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:403
 msgid "This resource cannot be created."
 msgstr "Este recurso não pode ser criado."
 
@@ -19715,7 +20706,7 @@ msgstr "Título do método de entrega."
 msgid "Method ID."
 msgstr "ID do método."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:582
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:595
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:240
 msgid "Array of options (key value pairs) for inputs such as select, multiselect, and radio buttons."
 msgstr "Lista de opções (pares de valores e chaves) para entradas como select, multiselect e botões do tipo radio."
@@ -19798,7 +20789,7 @@ msgstr "Métodos de entrega não suportam lixeira."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1905
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2382
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:830
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:837
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1885
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:657
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1121
@@ -19812,7 +20803,7 @@ msgid "The date the review was created, as GMT."
 msgstr "A data que a avaliação foi criada, em GMT."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:436
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:554
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:567
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:526
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:208
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:212
@@ -19820,7 +20811,7 @@ msgid "Additional help text shown to the user about the setting."
 msgstr "Texto de ajuda adicional mostrado ao usuário sobre a configuração."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:418
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:572
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:585
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:508
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:190
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:230
@@ -19828,7 +20819,7 @@ msgid "Type of setting."
 msgstr "Tipo de configuração."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:412
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:534
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:547
 #: includes/rest-api/Controllers/Version2/class-wc-rest-settings-v2-controller.php:210
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:502
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:184
@@ -19838,7 +20829,7 @@ msgid "A human readable description for the setting used in interfaces."
 msgstr "Uma descrição legível para a configuração, usada em interfaces."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:406
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:525
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:538
 #: includes/rest-api/Controllers/Version2/class-wc-rest-settings-v2-controller.php:204
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:496
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:178
@@ -19848,7 +20839,7 @@ msgid "A human readable label for the setting used in interfaces."
 msgstr "Um rótulo legível para a configuração, usado em interfaces."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:173
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:960
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:967
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2153
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:173
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:793
@@ -19857,7 +20848,7 @@ msgid "The date the image was last modified, as GMT."
 msgstr "A data que a imagem foi modificada pela última vez, em GMT."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:161
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:948
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:955
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2141
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:161
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:781
@@ -19875,7 +20866,7 @@ msgstr "A data em que o produto foi modificado pela última vez, em GMT."
 msgid "The date the product was created, as GMT."
 msgstr "A data em que o produto foi cadastrado, em GMT."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:765
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:772
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1814
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:591
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:596
@@ -19884,14 +20875,14 @@ msgstr "A data em que o produto foi cadastrado, em GMT."
 msgid "End date of sale price, in the site's timezone."
 msgstr "Data de termino do preço promocional, no fuso horário do site."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:760
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:767
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1809
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:586
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1045
 msgid "Start date of sale price, as GMT."
 msgstr "Data do início do preço promocional, em GMT."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:755
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:762
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1804
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:581
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1040
@@ -19912,7 +20903,7 @@ msgid "List of variations IDs."
 msgstr "Lista de IDs de variações."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:430
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:548
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:561
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:520
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:202
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:206
@@ -19920,7 +20911,7 @@ msgid "Default value for the setting."
 msgstr "Valor padrão para a configuração."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:425
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:543
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:556
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:515
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:197
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:201
@@ -19940,7 +20931,7 @@ msgid "The content of the review."
 msgstr "O conteúdo da avaliação."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:400
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:516
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:529
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:490
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:172
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:165
@@ -19989,7 +20980,7 @@ msgstr "Configurações do sistema de pagamento."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1911
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2388
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:836
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:843
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1891
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:663
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1127
@@ -19997,7 +20988,7 @@ msgid "Number of days until access to downloadable files expires."
 msgstr "Número de dias até que o acesso dos arquivos baixáveis expire."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:442
-#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:563
+#: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:576
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:532
 #: includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php:214
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:221
@@ -20034,8 +21025,8 @@ msgstr "Caso seja verdadeiro, este cupom não será aplicado para itens em promo
 msgid "How many times the coupon can be used in total."
 msgstr "Total de vezes que este cupom pode ser utilizado."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:644
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:170
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:702
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:180
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:76
 msgid "The date the customer was last modified, as GMT."
 msgstr "A última vez em que o cliente foi modificado, em GMT."
@@ -20055,7 +21046,7 @@ msgid "The date the order was created, as GMT."
 msgstr "A data em que o pedido foi criado, em GMT."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:504
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:356
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:366
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:420
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:543
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:637
@@ -20067,7 +21058,7 @@ msgstr "A data em que o pedido foi criado, em GMT."
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1762
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1860
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1936
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1019
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1026
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2275
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:255
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:847
@@ -20079,13 +21070,13 @@ msgstr "Metadados."
 msgid "User ID of user who created the refund."
 msgstr "ID do usuário que criou o reembolso."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:332
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:342
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:243
 msgid "Is the customer a paying customer?"
 msgstr "É um cliente pagador?"
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:511
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:363
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:373
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:427
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:551
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:644
@@ -20097,7 +21088,7 @@ msgstr "É um cliente pagador?"
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1769
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1867
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1943
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1026
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1033
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2282
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:262
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:854
@@ -20562,8 +21553,8 @@ msgstr "%1$s (%2$s)"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:145
 #: includes/admin/settings/class-wc-settings-general.php:62
 #: includes/customizer/class-wc-shop-customizer.php:744
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:242
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:305
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:252
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:315
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1296
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1359
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:148
@@ -20577,8 +21568,8 @@ msgstr "Endereço linha 2"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:69
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:141
 #: includes/admin/settings/class-wc-settings-general.php:53
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:237
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:300
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:247
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:310
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1291
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1354
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:143
@@ -20757,10 +21748,10 @@ msgstr "O método \"%s\" não foi implementado. Deve ser substituído na subclas
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:187
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:317
-#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:346
-#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:364
-#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:387
-#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:430
+#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:392
+#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:410
+#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:433
+#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:476
 msgid "An invalid setting value was passed."
 msgstr "Um valor de configuração inválido foi passado."
 
@@ -21095,7 +22086,7 @@ msgstr "Novo nome de usuário."
 msgid "Name for the resource."
 msgstr "Nome para o recurso."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:865
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:923
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:726
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:626
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:636
@@ -21119,7 +22110,7 @@ msgstr "Novo e-mail de usuário."
 msgid "ID to reassign posts to."
 msgstr "ID para reatribuir posts."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:874
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:932
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:980
 msgid "Limit result set to specific IDs."
 msgstr "Limita o resultado para um conjunto de IDs específicos."
@@ -22228,99 +23219,99 @@ msgstr "Se é ou não uma taxa de imposto que deve ser aplicada à entrega."
 
 #. translators: %s: dimension unit
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2466
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:914
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:921
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:747
 msgid "Variation height (%s)."
 msgstr "Altura da variação (%s)."
 
 #. translators: %s: dimension unit
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2460
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:908
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:915
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:741
 msgid "Variation width (%s)."
 msgstr "Largura da variação (%s)."
 
 #. translators: %s: dimension unit
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2454
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:902
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:909
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:735
 msgid "Variation length (%s)."
 msgstr "Comprimento da variação (%s)."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2448
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:896
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:903
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:729
 msgid "Variation dimensions."
 msgstr "Dimensões da variação."
 
 #. translators: %s: weight unit
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2443
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:891
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:898
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:724
 msgid "Variation weight (%s)."
 msgstr "Peso da variação (%s)."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2436
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:884
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:891
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:712
 msgid "Shows if the variation is on backordered."
 msgstr "Mostra se a variação está na lista de encomendas."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2417
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:865
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:872
 msgid "Controls whether or not the variation is listed as \"in stock\" or \"out of stock\" on the frontend."
 msgstr "Controla se a variação é listada como \"em estoque\" ou \"fora de estoque\" no site."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2406
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:854
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:861
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:681
 msgid "Stock management at variation level."
 msgstr "Gerenciamento de estoque a nível de variação."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2351
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:799
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:806
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:626
 msgid "If the variation is downloadable."
 msgstr "Se a variação é baixável."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2345
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:793
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:800
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:620
 msgid "If the variation is virtual."
 msgstr "Se a variação é virtual."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2334
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:787
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:794
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:614
 msgid "Shows if the variation can be bought."
 msgstr "Mostra se a variação pode ser comprada."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2328
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:775
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:782
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:601
 msgid "Shows if the variation is on sale."
 msgstr "Mostra se a variação está a venda."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2313
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:750
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:757
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:576
 msgid "Variation sale price."
 msgstr "Preço promocional da variação."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2308
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:745
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:752
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:571
 msgid "Variation regular price."
 msgstr "Preço da variação."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2302
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:739
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:746
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:565
 msgid "Current variation price."
 msgstr "Preço atual da variação."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2290
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:727
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:734
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:548
 msgid "Variation URL."
 msgstr "URL da variação."
@@ -22329,7 +23320,7 @@ msgstr "URL da variação."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2205
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2247
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2536
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:996
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1003
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2190
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2235
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:824
@@ -22340,7 +23331,7 @@ msgstr "ID do atributo."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2257
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2546
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1006
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1013
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2245
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:834
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1493
@@ -22578,7 +23569,7 @@ msgstr "Descrição em HTML do recurso."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2210
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2252
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2541
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1001
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1008
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2195
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2240
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:829
@@ -22599,7 +23590,7 @@ msgstr "Tipo de exibição do arquivo de categoria."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2506
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1610
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:179
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:966
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:973
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2159
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:179
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:799
@@ -22801,7 +23792,7 @@ msgstr "Gerenciamento de estoque no nível de produto."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1953
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2412
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:860
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:867
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1926
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:687
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1162
@@ -22811,7 +23802,7 @@ msgstr "Quantidade em estoque."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1964
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2423
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:871
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:878
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1937
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:699
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1174
@@ -22820,7 +23811,7 @@ msgstr "Caso esteja gerenciando estoque, isto irá controlar se é permitido enc
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1971
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2430
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:878
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:885
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1944
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:706
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1181
@@ -22881,7 +23872,7 @@ msgstr "Mostra se o produto precisa ser enviado."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2032
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2473
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:921
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:928
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2005
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:754
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1247
@@ -22890,7 +23881,7 @@ msgstr "Slug da classe de entrega."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2037
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2478
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:926
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:933
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2010
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:759
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1252
@@ -22986,14 +23977,14 @@ msgstr "Lista de imagens."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2190
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2522
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:982
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:989
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2175
 msgid "Image position. 0 means that the image is featured."
 msgstr "Posição da imagem. 0 significa que a imagem é destacada."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2198
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2529
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:989
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:996
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2183
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:817
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1431
@@ -23005,7 +23996,7 @@ msgstr "Lista de atributos."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2489
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1605
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:150
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:937
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:944
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2130
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:150
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:770
@@ -23018,7 +24009,7 @@ msgstr "ID da imagem."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2162
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2494
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:155
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:942
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:949
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2135
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:155
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:775
@@ -23030,7 +24021,7 @@ msgstr "A data em que a imagem foi criada, no fuso horário do site."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2168
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2500
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:167
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:954
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:961
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2147
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:167
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:787
@@ -23042,7 +24033,7 @@ msgstr "A data em que a imagem foi modificada pela última vez, no fuso horário
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2180
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2512
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:185
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:972
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:979
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2165
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:185
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:805
@@ -23055,7 +24046,7 @@ msgstr "Nome da imagem."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2185
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2517
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:190
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:977
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:984
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2170
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:190
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:810
@@ -23097,25 +24088,25 @@ msgid "Variation ID."
 msgstr "ID da variação."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2278
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:710
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:717
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:531
 msgid "The date the variation was created, in the site's timezone."
 msgstr "A data em que a variação foi criada, no fuso horário do site."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2284
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:716
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:723
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:537
 msgid "The date the variation was last modified, in the site's timezone."
 msgstr "A data que a variação foi modificada pela última vez, no fuso horário do site."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2484
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:932
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:939
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:765
 msgid "Variation image data."
 msgstr "Dados da imagem da variação."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2566
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1014
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1021
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2270
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:842
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1519
@@ -23340,7 +24331,7 @@ msgstr "ID do pedido ascendente."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1813
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2297
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:734
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:741
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1783
 #: src/Admin/API/Reports/Stock/Controller.php:382
 #: src/StoreApi/Schemas/V1/ProductSchema.php:108
@@ -23510,7 +24501,7 @@ msgstr "Imposto total do desconto."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1935
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2394
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:842
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:849
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1908
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:669
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1144
@@ -23519,7 +24510,7 @@ msgstr "Status do imposto."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1880
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2357
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:805
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:812
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1860
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:632
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1096
@@ -23578,7 +24569,7 @@ msgstr "Metadados do item."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:483
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1372
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:517
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:369
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:379
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:433
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:557
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:650
@@ -23590,7 +24581,7 @@ msgstr "Metadados do item."
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1775
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1873
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1949
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1032
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1039
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2288
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:268
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:860
@@ -23599,15 +24590,10 @@ msgstr "Metadados do item."
 msgid "Meta key."
 msgstr "Chave do metadado."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:489
-#: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1378
-msgid "Meta label."
-msgstr "Rótulo do metadado."
-
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:495
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1384
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:522
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:374
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:384
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:438
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:563
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:655
@@ -23619,7 +24605,7 @@ msgstr "Rótulo do metadado."
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1780
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1878
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1954
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1037
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:1044
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2293
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:273
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:865
@@ -23627,6 +24613,11 @@ msgstr "Rótulo do metadado."
 #: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:199
 msgid "Meta value."
 msgstr "Valor do metadado."
+
+#: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:489
+#: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1378
+msgid "Meta label."
+msgstr "Rótulo do metadado."
 
 #: includes/admin/views/html-notice-legacy-shipping.php:27
 #: includes/admin/views/html-notice-no-shipping-methods.php:31
@@ -23766,7 +24757,7 @@ msgstr "Detalhes do arquivo."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1892
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2369
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customer-downloads-v2-controller.php:147
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:817
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:824
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1872
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:644
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1108
@@ -23778,7 +24769,7 @@ msgstr "Nome do arquivo."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1897
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2374
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customer-downloads-v2-controller.php:153
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:822
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:829
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1877
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:649
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1113
@@ -23786,102 +24777,102 @@ msgstr "Nome do arquivo."
 msgid "File URL."
 msgstr "URL do arquivo."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:327
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:385
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:402
 msgid "Cannot create existing resource."
 msgstr "Não pode criar recursos existentes."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:471
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:529
 #: includes/rest-api/Controllers/Version1/class-wc-rest-tax-classes-v1-controller.php:223
 msgid "Invalid resource id."
 msgstr "ID de curso inválido."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:408
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:466
 msgid "Email address is invalid."
 msgstr "O endereço de e-mail é inválido."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:412
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:470
 msgid "Username isn't editable."
 msgstr "O nome de usuário não é editável."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:466
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:524
 msgid "Customers do not support trashing."
 msgstr "Clientes não tem suporte a lixeira."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:476
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:534
 msgid "Invalid resource id for reassignment."
 msgstr "ID de recurso inválido para reatribuição."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:152
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:162
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:58
 msgid "The date the customer was created, in the site's timezone."
 msgstr "A data em que o cliente foi criado, no fuso horário do site."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:164
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:174
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:70
 msgid "The date the customer was last modified, in the site's timezone."
 msgstr "A data em que o cliente modificado pela última vez, no fuso horário do site."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:650
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:176
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:708
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:186
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:82
 msgid "The email address for the customer."
 msgstr "Endereço de e-mail do cliente."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:656
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:182
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:714
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:192
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:88
 msgid "Customer first name."
 msgstr "Nome do cliente."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:664
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:190
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:722
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:200
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:96
 msgid "Customer last name."
 msgstr "Sobrenome do cliente."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:672
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:204
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:730
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:214
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:110
 msgid "Customer login name."
 msgstr "Nome de login do cliente."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:680
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:212
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:738
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:222
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:118
 msgid "Customer password."
 msgstr "Senha do cliente."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:685
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:743
 msgid "Last order data."
 msgstr "Dados do último pedido."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:691
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:749
 msgid "Last order ID."
 msgstr "ID do último pedido."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:705
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:338
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:763
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:348
 msgid "Quantity of orders made by the customer."
 msgstr "Quantidade de pedidos feitos pelo cliente."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:711
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:344
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:769
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:354
 msgid "Total amount spent."
 msgstr "Valor total gasto."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:717
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:350
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:775
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:360
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:249
 msgid "Avatar URL."
 msgstr "URL do avatar."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:728
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:791
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:786
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:849
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1088
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1151
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:222
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:285
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:232
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:295
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1276
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1339
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:128
@@ -23889,12 +24880,12 @@ msgstr "URL do avatar."
 msgid "First name."
 msgstr "Nome."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:733
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:796
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:791
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:854
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1093
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1156
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:227
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:290
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:237
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:300
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1281
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1344
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:133
@@ -23902,12 +24893,12 @@ msgstr "Nome."
 msgid "Last name."
 msgstr "Sobrenome."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:738
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:801
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:796
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:859
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1098
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1161
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:232
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:295
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:242
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:305
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1286
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1349
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:138
@@ -23915,53 +24906,53 @@ msgstr "Sobrenome."
 msgid "Company name."
 msgstr "Nome da empresa."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:743
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:806
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:801
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:864
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1103
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1166
 msgid "Address line 1."
 msgstr "Endereço linha 1."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:748
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:811
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:806
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:869
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1108
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1171
 msgid "Address line 2."
 msgstr "Endereço linha 2."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:768
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:831
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:262
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:325
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:826
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:889
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:272
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:335
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:168
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:231
 msgid "ISO code of the country."
 msgstr "Código ISO do país."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:773
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:831
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1133
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:267
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:277
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1321
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:173
 msgid "Email address."
 msgstr "Endereço de e-mail."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:779
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:837
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1139
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:273
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:283
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1327
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:179
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:236
 msgid "Phone number."
 msgstr "Número de telefone."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:753
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:816
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:811
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:874
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1113
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1176
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:655
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:247
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:310
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:257
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:320
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1301
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1364
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:153
@@ -23969,12 +24960,12 @@ msgstr "Número de telefone."
 msgid "City name."
 msgstr "Cidade."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:758
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:821
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:816
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:879
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1118
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1181
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:252
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:315
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:262
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:325
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1306
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1369
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:158
@@ -23982,17 +24973,17 @@ msgstr "Cidade."
 msgid "ISO code or name of the state, province or district."
 msgstr "Código ISO ou o nome do estado, província ou distrito."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:786
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:280
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:844
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:290
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:186
 msgid "List of shipping address data."
 msgstr "Lista de dados de endereço de entrega."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:910
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:968
 msgid "Limit result set to resources with a specific email."
 msgstr "Limita o resultado para recursos atribuídos a um e-mail especifico."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:916
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:974
 msgid "Limit result set to resources with a specific role."
 msgstr "Limita o resultado para recursos atribuídos a uma função especifica."
 
@@ -24168,7 +25159,7 @@ msgstr "Não foi possível criar a nota do pedido, tente novamente."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php:84
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customer-downloads-v1-controller.php:46
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:78
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:632
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:690
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:81
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:401
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:87
@@ -24194,7 +25185,7 @@ msgstr "Não foi possível criar a nota do pedido, tente novamente."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:88
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:630
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:78
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:146
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:156
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-notes-v2-controller.php:129
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:98
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:381
@@ -24203,7 +25194,7 @@ msgstr "Não foi possível criar a nota do pedido, tente novamente."
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:54
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:103
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:153
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:704
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:711
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:88
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1699
 #: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:90
@@ -24252,12 +25243,12 @@ msgstr "Código nonce inválido, esse nonce já foi utilizado."
 msgid "WooCommerce database update"
 msgstr "Atualização de dados do WooCommerce"
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:763
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:826
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:821
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:884
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1123
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1186
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:257
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:320
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:267
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:330
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1311
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1374
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:163
@@ -24270,8 +25261,8 @@ msgstr "Código postal."
 msgid "Shows/define if the note is only for reference or for the customer (the user will be notified)."
 msgstr "Exibe/define se a nota é apenas para referência ou para o cliente (o usuário será notificado)."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:723
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:217
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:781
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:227
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:123
 msgid "List of billing address data."
 msgstr "Lista de dados de endereço de faturamento."
@@ -24666,15 +25657,15 @@ msgstr "Tem certeza que deseja excluir essa nota? Esta ação não poderá ser d
 msgid "Unable to accept more than %s items for this request."
 msgstr "Não é possível aceitar mais do que %s itens para esta solicitação."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:478
+#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:524
 msgid "List of created resources."
 msgstr "Lista de recursos criados."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:486
+#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:532
 msgid "List of updated resources."
 msgstr "Lista de recursos atualizados."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:494
+#: includes/rest-api/Controllers/Version3/class-wc-rest-controller.php:540
 msgid "List of delete resources."
 msgstr "Lista de recursos excluídos."
 
@@ -24725,7 +25716,7 @@ msgstr "%s não tem suporte a lixeira."
 msgid "The %s has already been deleted."
 msgstr "O %s já foi excluído."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:150
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:168
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:136
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:167
 #: includes/rest-api/Controllers/Version1/class-wc-rest-tax-classes-v1-controller.php:111
@@ -24739,7 +25730,7 @@ msgstr "O %s já foi excluído."
 msgid "Sorry, you are not allowed to create resources."
 msgstr "Desculpe, você não possui permissão para criar recursos."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:183
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:201
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:940
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:168
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:189
@@ -24753,7 +25744,7 @@ msgstr "Desculpe, você não possui permissão para criar recursos."
 msgid "Sorry, you are not allowed to edit this resource."
 msgstr "Desculpe, você não possui permissão para editar este recurso."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:200
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:242
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:169
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:956
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:215
@@ -24800,7 +25791,7 @@ msgstr "Utilize argumentos WP Query para alterar a resposta, variáveis de consu
 msgid "Resource does not support trashing."
 msgstr "Recurso não tem suporte a lixeira."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:495
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:553
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:403
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:510
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:565
@@ -24815,7 +25806,7 @@ msgstr "Ordenar coleção por atributos de recurso."
 msgid "Whether to hide resources not assigned to any products."
 msgstr "Se deve ocultar recursos não atribuídos a nenhum produto."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:883
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:941
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:733
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:744
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:644
@@ -24827,7 +25818,7 @@ msgstr "Se deve ocultar recursos não atribuídos a nenhum produto."
 msgid "Offset the result set by a specific number of items."
 msgstr "Começar o resultado depois de um número de itens especifico."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:890
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:948
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:740
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:750
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:650
@@ -24840,7 +25831,7 @@ msgstr "Começar o resultado depois de um número de itens especifico."
 msgid "Order sort attribute ascending or descending."
 msgstr "Ordenar atributo de forma ascendente ou descendente."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:898
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:956
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:748
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:757
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:657
@@ -24898,7 +25889,7 @@ msgstr "Aprenda mais sobre cupons"
 msgid "The %s cannot be deleted."
 msgstr "O %s não pode ser excluído."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:215
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:273
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:230
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:198
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:219
@@ -25018,7 +26009,7 @@ msgstr "Sem permissão para atualizar este recurso."
 msgid "Sorry, you cannot create new resource."
 msgstr "Sem permissão para criar um novo recurso."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:166
+#: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:184
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:152
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:924
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:179
@@ -26603,7 +27594,7 @@ msgstr "Já é cliente?"
 msgid "The following addresses will be used on the checkout page by default."
 msgstr "Os endereços a seguir serão usados na página de finalização de compra por padrão."
 
-#: src/StoreApi/Routes/V1/Checkout.php:689
+#: src/StoreApi/Routes/V1/Checkout.php:705
 #: templates/checkout/form-checkout.php:26
 #: assets/client/blocks/checkout-frontend.js:1
 msgid "You must be logged in to checkout."
@@ -30983,7 +31974,7 @@ msgstr "Mês passado"
 msgid "Sold %1$s worth in the last %2$d days"
 msgstr "Foram vendidos %1$s itens nos últimos %2$d dias"
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:722
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:729
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:543
 msgid "Variation description."
 msgstr "Descrição da variação."
@@ -31060,7 +32051,7 @@ msgstr "Definir preços promocionais"
 msgid "This is the sum of the 'Shipping total' field within your orders."
 msgstr "Esta é a soma dos campos \"Total de entrega\" dos seus pedidos."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:198
+#: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:208
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:104
 msgid "Customer role."
 msgstr "Função do cliente."
@@ -31186,7 +32177,7 @@ msgstr "Ou, adicione o ID da taxa de imposto:"
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1942
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2401
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:693
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:849
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:856
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1915
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:676
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1151
