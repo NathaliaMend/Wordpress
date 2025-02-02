@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
     width="<?php get_custom_header()->width; ?>" alt="" />
 
@@ -11,15 +10,8 @@
                     <?php /*LOOP*/
                     while (have_posts()):
                         the_post(); // enquanto tiver posts ,chame os posts independente da quantidade 
-                        ?>
-                        <article>
-                            <header>
-                                <h1><?php the_title(); ?></h1>
-                            </header>
-                            <?php the_content(); ?>
-                            <?php wp_link_pages(); ?>
-                        </article>
-                        <?php
+                       
+                        get_template_part('parts/content', 'page');
                         if (comments_open() || get_comments_number()) {
                             comments_template();
                         }

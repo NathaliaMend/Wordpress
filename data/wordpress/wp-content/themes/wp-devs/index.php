@@ -13,18 +13,8 @@
                     if (have_posts()): //se tiver posts
                         while (have_posts()):
                             the_post(); // enquanto tiver posts ,chame os posts independente da quantidade 
-                            ?>
-                            <article>
-                                <h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h2>
-                                <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail(array(150, 150)); ?></a>
-                                <div class="meta-info">
-                                    <p>Posted in <?php echo get_the_date(); ?> by <?php the_author_posts_link(); ?></p>
-                                    <p>Categories: <?php the_category(' '); ?></p>
-                                    <p>Tags: <?php the_tags('', ', '); ?></p>
-                                </div>
-                                <?php the_excerpt(); ?>
-                            </article>
-                            <?php
+                    
+                            get_template_part('parts/content');
                         endwhile;
                         ?>
                         <div class="wpdevs-pagination">
@@ -33,11 +23,11 @@
                                 ?>
                             </div>
                             <div class="pages old">
-                            <?php next_posts_link("Older posts >>");
+                                <?php next_posts_link("Older posts >>");
                                 ?>
                             </div>
                         </div>
-                    <?php
+                        <?php
                     else: ?>
                         <p>Nothing yet to be displayed!</p>
                     <?php endif; ?>
