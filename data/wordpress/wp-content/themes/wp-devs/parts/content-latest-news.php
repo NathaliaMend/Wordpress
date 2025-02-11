@@ -6,8 +6,13 @@
     <div class="meta-info">
         <p>
             by <span> <?php the_author_posts_link(); ?> </span>
-            Categories: <span> <?php the_category(' '); ?> </span>
-            Tags: <?php the_tags('', ', '); ?></p>
+            <?php if (has_category()): ?>
+                Categories: <span> <?php the_category(' '); ?> </span>
+            <?php endif; ?>
+            <?php if (has_tag()): ?>
+                Tags: <?php the_tags('', ', '); ?>
+            <?php endif; ?>
+        </p>
         <p> <span> <?php echo get_the_date(); ?> </span></p>
     </div>
     <?php the_excerpt(); //traz o resumo do post ?>
