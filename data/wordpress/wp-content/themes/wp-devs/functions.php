@@ -32,6 +32,7 @@ function wpdevs_config()
         'flex-height' => true,
         'flex-width'=> true
     ));
+    add_theme_support('automatic-feed-links');
     add_theme_support(('title-tag'));
 }
 add_action('after_setup_theme','wpdevs_config', 0); // a funcao wpdevs_config sera chamada quando o gancho áfter_setup_theme'ficar disponivel e com a maior prioridade possivel ,0, antes de qualquer outra funcao.
@@ -85,4 +86,10 @@ function wpdevs_sidebars(){
             'after-title'=> '</h4>',
         )
     );
+}
+
+if (!function_exists('wp_body_open')){
+    function wp_body_open() {
+        do_action('wp_body_open');
+    }
 }

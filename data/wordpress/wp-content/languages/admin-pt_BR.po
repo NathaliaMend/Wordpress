@@ -136,68 +136,68 @@ msgid "Skip to Editor"
 msgstr "Pular para o editor"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:279
+#: wp-admin/about.php:304
 msgid "WordPress %s Field Guide"
 msgstr "Guia do WordPress %s"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:252
+#: wp-admin/about.php:277
 msgid "WordPress %s Release Notes"
 msgstr "Notas de lançamento do WordPress %s"
 
-#: wp-admin/about.php:184
+#: wp-admin/about.php:209
 msgid "65+ accessibility fixes and enhancements focus on foundational aspects of the WordPress experience, from improving user interface components and keyboard navigation in the Editor, to an accessible heading on WordPress login screens and clearer labeling throughout."
 msgstr "Mais de 65 correções e melhorias de acessibilidade se concentram em aspectos fundamentais da experiência do WordPress, desde a melhoria dos componentes da interface do usuário e da navegação pelo teclado no Editor até um título acessível nas telas de acesso do WordPress e rotulagem mais clara em toda a interface."
 
-#: wp-admin/about.php:175
+#: wp-admin/about.php:200
 msgid "WordPress 6.7 delivers important performance updates, including faster pattern loading, optimized previews in the data views component, improved PHP 8+ support and removal of deprecated code, auto sizes for lazy-loaded images, and more efficient tag processing in the HTML API."
 msgstr "O WordPress 6.7 traz atualizações importantes de desempenho, incluindo carregamento mais rápido de padrões, visualizações otimizadas no componente de visualizações de dados, remoção de código obsoleto e suporte melhorado ao PHP 8 em diante, tamanhos automáticos para imagens com carregamento tardio e processamento mais eficiente de tags na API HTML."
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:184
 msgid "Create, edit, remove, and apply font size presets with the next addition to the Styles interface. Override theme defaults or create your own custom font size, complete with fluid typography for responsive font scaling. Get into the details!"
 msgstr "Crie, edite, remova e aplique predefinições de tamanhos de fontes com a próxima adição à interface Estilos. Substitua os padrões do tema ou crie seu próprio tamanho de fonte personalizado, completo com tipografia fluida para dimensionamento de fonte responsivo. Veja os detalhes!"
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:183
 msgid "New style section, new possibilities"
 msgstr "Nova seção de estilos, novas possibilidades"
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:181
 msgid "Embrace your inner font nerd"
 msgstr "Descubra o nerd em tipologia que existe em você"
 
-#: wp-admin/about.php:139
+#: wp-admin/about.php:164
 msgid "This feature introduces a new UI for connecting blocks to custom fields, putting control of dynamic content directly in the editor. Link blocks with fields in just a few clicks, enhancing flexibility and efficiency when building. Your clients will love you—as if they didn&#8217;t already."
 msgstr "Esta funcionalidade apresenta uma nova interface de usuário para conectar blocos a campos personalizados, trazendo o controle do conteúdo dinâmico diretamente para o Editor. Ligue blocos a campos personalizados com apenas poucos cliques, aumentando a flexibilidade e a eficiência de seu trabalho de criação. Seus clientes irão adorar (como se já não o fizessem)."
 
-#: wp-admin/about.php:138
+#: wp-admin/about.php:163
 msgid "A streamlined way to create dynamic content"
 msgstr "Uma maneira simplificada de criar conteúdo dinâmico"
 
-#: wp-admin/about.php:136
+#: wp-admin/about.php:161
 msgid "Connect blocks and custom fields with no hassle (or code)"
 msgstr "Conecte blocos e campos personalizados sem complicações (ou código)"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:154
 msgid "Edit and arrange entire sections of your content like never before. A broader view of your site lets you add, edit, shuffle, or remove patterns to your liking. Embrace your inner architect."
 msgstr "Edite e organize seções inteiras do seu conteúdo como nunca antes. Uma visão mais ampla do seu site permite que você adicione, edite, troque ou remova padrões conforme sua preferência. Desperte o arquiteto que há em você."
 
-#: wp-admin/about.php:128
+#: wp-admin/about.php:153
 msgid "Explore your content from a new perspective"
 msgstr "Explore seu conteúdo de uma nova perspectiva"
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:151
 msgid "Get the big picture with Zoom Out"
 msgstr "Tenha um panorama geral com a Visão ampla"
 
-#: wp-admin/about.php:109
+#: wp-admin/about.php:134
 msgid "Twenty Twenty-Five offers a flexible, design-focused theme that lets you build stunning sites with ease. Tailor your aesthetic with an array of style options, block patterns, and color palettes. Pared down to the essentials, this is a theme that can truly grow with you."
 msgstr "O Twenty Twenty-Five é um tema flexível e focado no design, que lhe permite criar belíssimos sites com facilidade. Modele sua estética com uma grande variedade de opções de estilo, padrões de blocos e paletas de cores. Reduzido ao essencial, é um tema que realmente pode crescer com você."
 
-#: wp-admin/about.php:108
+#: wp-admin/about.php:133
 msgid "Endless possibility without complexity"
 msgstr "Possibilidades infinitas sem complexidade"
 
-#: wp-admin/about.php:99
+#: wp-admin/about.php:124
 msgid "WordPress 6.7 debuts the modern Twenty Twenty-Five theme, offering ultimate design flexibility for any blog at any scale. Control your site typography like never before with new font management features. The new Zoom Out feature lets you design your site with a macro view, stepping back from the details to bring the big picture to life."
 msgstr "O WordPress 6.7 estreia o moderno tema Twenty Twenty-Five, oferecendo a máxima flexibilidade de design para qualquer blog, em qualquer escala. Controle a tipografia do seu site como nunca antes com as novas funcionalidades de gestão de fontes. A nova funcionalidade Visão Ampla lhe permite desenhar seu site em um visualização macro, afastando-se dos detalhes para se ter um panorama mais abrangente."
 
@@ -356,20 +356,20 @@ msgstr "Se você é um desenvolvedor, pode aprender mais sobre <a href=\"https:/
 msgid "If you are a plugin author, you can learn more about <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">how to add the Personal Data Eraser to a plugin</a>."
 msgstr "Se você é um desenvolvedor, pode aprender mais sobre <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">como adicionar a Remoção de Dados Pessoais a um plugin</a>."
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:230
 msgid "See everything new"
 msgstr "Conheça as novidades"
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:230
 msgid "https://wordpress.org/download/releases/6-7/"
 msgstr "https://br.wordpress.org/download/releases/6-7/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:197
+#: wp-admin/about.php:222
 msgid "For a comprehensive overview of all the new features and enhancements in WordPress %s, please visit the feature-showcase website."
 msgstr "Para uma visão geral de todas as novas funcionalidades e melhorias do WordPress %s, visite o site de demonstração dos novos recursos."
 
-#: wp-admin/about.php:191
+#: wp-admin/about.php:216
 msgid "And much more"
 msgstr "E muito mais"
 
@@ -512,11 +512,11 @@ msgstr "Instalar agora"
 msgid "Created by a worldwide team of passionate individuals"
 msgstr "Criado por uma equipe mundial de pessoas apaixonadas."
 
-#: wp-admin/about.php:183
+#: wp-admin/about.php:208
 msgid "Accessibility improvements"
 msgstr "Melhorias na acessibilidade"
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:199
 msgid "Performance updates"
 msgstr "Atualizações de desempenho"
 
@@ -589,12 +589,12 @@ msgid "When using Bulk Edit, you can change the metadata (categories, author, et
 msgstr "Ao usar a Edição em Massa, você pode alterar os metadados (categorias, autor, etc.) de todas as postagens selecionadas de uma vez. Para remover uma postagem do grupo, basta clicar no botão %s<span class=\"screen-reader-text\">remover</span> bao lado do nome dela na área de Edição em Massa que aparece."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:262
+#: wp-admin/about.php:287
 msgid "Read the WordPress %s Release Notes for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "Leia as notas de lançamento do WordPress %s para obter informações sobre instalação, melhorias, problemas corrigidos, recursos de aprendizagem, lista de arquivos alterados e os colaboradores desta versão."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:289
+#: wp-admin/about.php:314
 msgid "Explore the WordPress %s Field Guide. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "Explore o Guia de campo do WordPress %s. Saiba mais sobre as mudanças desta versão com detalhadas notas para desenvolvedores, que lhe ajudarão a construir com o WordPress."
 
@@ -615,7 +615,7 @@ msgid "Your WordPress version is %1$s, however the new plugin version requires %
 msgstr "Sua versão atual do WordPress é %1$s, no entanto o tema enviado requer %2$s."
 
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:78
+#: wp-admin/about.php:78 wp-admin/about.php:103
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -1082,14 +1082,14 @@ msgid "Be the future of WordPress"
 msgstr "Seja o futuro do WordPress"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:230
+#: wp-admin/about.php:255
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 msgstr "O <a href=\"%1$s\">Learn WordPress</a> é um ambiente gratuito para usuários novos e experientes do WordPress. O Learn está repleto de tutoriais em vídeo sobre o uso de vários recursos do WordPress, <a href=\"%2$s\">oficinas interativas</a> para explorar tópicos em profundidade e planos de aula para se mergulhar em áreas específicas."
 
 #: wp-admin/comment.php:73 wp-admin/edit-comments.php:232
 #: wp-admin/edit-form-advanced.php:320 wp-admin/edit-form-advanced.php:338
 #: wp-admin/edit-form-advanced.php:356 wp-admin/edit-link-form.php:77
-#: wp-admin/edit-tags.php:312 wp-admin/edit.php:302 wp-admin/edit.php:327
+#: wp-admin/edit-tags.php:315 wp-admin/edit.php:302 wp-admin/edit.php:327
 #: wp-admin/erase-personal-data.php:66 wp-admin/export-personal-data.php:66
 #: wp-admin/export.php:60 wp-admin/includes/class-custom-background.php:111
 #: wp-admin/includes/class-custom-image-header.php:146 wp-admin/index.php:133
@@ -1227,12 +1227,12 @@ msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Docum
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">Documentação do Personalizador</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:370
+#: wp-admin/about.php:395
 msgid "https://wordpress.org/download/"
 msgstr "https://br.wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:367
+#: wp-admin/about.php:392
 msgid "This is the final release of WordPress %s"
 msgstr "Esta é a última versão do WordPress %s"
 
@@ -1559,12 +1559,12 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "Entre em contato com os desenvolvedores dos arquivos básicos do WordPress para garantir que nunca mais tenha esse problema."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:364
+#: wp-admin/about.php:389
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Importante! Sua versão do WordPress (%1$s) irá parar de receber atualizações de segurança em breve. Para manter seu site seguro, <a href=\"%2$s\">atualize para a mais recente versão do WordPress</a>."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:361
+#: wp-admin/about.php:386
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Importante! Sua versão do WordPress (%1$s) não é mais suportada e você não receberá mais atualizações de segurança para seu site. Para manter seu site seguro, <a href=\"%2$s\">atualize para a versão mais recente do WordPress</a>."
 
@@ -1574,7 +1574,7 @@ msgid "https://make.wordpress.org/core/wordpress-%s-field-guide/"
 msgstr "https://make.wordpress.org/core/wordpress-%s-field-guide/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:221
+#: wp-admin/about.php:246
 msgid "Learn more about WordPress %s"
 msgstr "Saiba mais sobre o WordPress %s"
 
@@ -2483,7 +2483,7 @@ msgstr "Adicionar nova senha de aplicativo"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Obrigatório para criar uma senha de aplicação, mas não para atualizar o usuário."
 
-#: wp-admin/about.php:305
+#: wp-admin/about.php:330
 msgid "Go to Updates"
 msgstr "Ir para atualizações"
 
@@ -2791,7 +2791,7 @@ msgid "Unable to generate personal data export file. ZipArchive not available."
 msgstr "Não foi possível gerar o arquivo de dados pessoais do usuário. ZipArchive não disponível."
 
 #. translators: %s: Search query.
-#: wp-admin/edit-comments.php:282 wp-admin/edit-tags.php:340
+#: wp-admin/edit-comments.php:282 wp-admin/edit-tags.php:343
 #: wp-admin/edit.php:429 wp-admin/link-manager.php:111 wp-admin/plugins.php:778
 #: wp-admin/upload.php:430 wp-admin/users.php:795 wp-admin/js/updates.js:3139
 #: wp-admin/network/sites.php:399 wp-admin/network/themes.php:374
@@ -4070,11 +4070,11 @@ msgstr "Visão geral do relatório de exportação."
 msgid "<a href=\"https://wordpress.org/documentation/article/settings-writing-screen/\">Documentation on Writing Settings</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/settings-writing-screen/\">Documentação sobre configurações de escrita</a>"
 
-#: wp-admin/edit-tags.php:309
+#: wp-admin/edit-tags.php:312
 msgid "<a href=\"https://wordpress.org/documentation/article/posts-tags-screen/\">Documentation on Tags</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/posts-tags-screen/\">Documentação sobre tags</a>"
 
-#: wp-admin/edit-tags.php:305
+#: wp-admin/edit-tags.php:308
 msgid "<a href=\"https://wordpress.org/documentation/article/posts-categories-screen/\">Documentation on Categories</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/posts-categories-screen/\">Documentação sobre categorias</a>"
 
@@ -5672,7 +5672,7 @@ msgid "Could not resume the theme."
 msgstr "Não foi possível retomar o tema."
 
 #. translators: %s: Default category.
-#: wp-admin/edit-tags.php:629
+#: wp-admin/edit-tags.php:632
 msgid "Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the default category %s. The default category cannot be deleted."
 msgstr "A exclusão de uma categoria não exclui as postagens nessa categoria. Em vez disso, as postagens que foram atribuídas somente à categoria excluída serão definidas para a categoria padrão %s. Não é possível excluir a categoria padrão."
 
@@ -6927,7 +6927,7 @@ msgstr "Ativar"
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new posts"
 msgstr "Permitir avisos de links de outros blogs (pingbacks ou trackbacks) em novos posts."
 
-#: wp-admin/menu-header.php:281 wp-admin/js/common.js:2109
+#: wp-admin/menu-header.php:281 wp-admin/js/common.js:2114
 msgid "Collapse Main menu"
 msgstr "Recolher menu principal"
 
@@ -7945,7 +7945,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Atualmente definido como: %s) "
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:335
+#: wp-admin/about.php:360
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "A <strong>versão %s</strong> resolveu um problema de segurança."
 
@@ -7958,15 +7958,15 @@ msgstr "https://br.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Foto do perfil"
 
-#: wp-admin/about.php:58 wp-admin/about.php:332
+#: wp-admin/about.php:58 wp-admin/about.php:357
 msgid "Maintenance and Security Releases"
 msgstr "Versões de segurança e manutenção"
 
-#: wp-admin/about.php:329
+#: wp-admin/about.php:354
 msgid "Security Releases"
 msgstr "Atualizações de segurança"
 
-#: wp-admin/about.php:326
+#: wp-admin/about.php:351
 msgid "Maintenance Releases"
 msgstr "Versões de manutenção"
 
@@ -8661,7 +8661,7 @@ msgstr "Você também pode incorporar uma mídia de vários sites populares como
 msgid "<a href=\"https://codex.wordpress.org/Appearance_Background_Screen\">Documentation on Custom Background</a>"
 msgstr "<a href=\"https://codex.wordpress.org/pt-br:Painel_Fundo\">Documentação sobre planos de fundo</a>"
 
-#: wp-admin/edit-tags.php:307
+#: wp-admin/edit-tags.php:310
 msgid "<a href=\"https://codex.wordpress.org/Links_Link_Categories_Screen\">Documentation on Link Categories</a>"
 msgstr "<a href=\"https://codex.wordpress.org/pt-br:Painel_Categorias_de_Links\">Documentação sobre categorias de links</a>"
 
@@ -10418,7 +10418,7 @@ msgstr "%s está editando agora"
 msgid "You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery, select the images to add and click the &#8220;Create a new gallery&#8221; button."
 msgstr "Você pode enviar e inserir mídias (imagens, áudios, documentos, etc.) clicando no botão Adicionar Mídia. Você pode selecionar entre as imagens e arquivos já existentes na Biblioteca de Mídia, ou enviar uma nova mídia para sua página ou post. Para criar uma galeria de imagens, selecione as imagens para adicioná-las e clique no botão  &#8220;Criar nova galeria&#8221;."
 
-#: wp-admin/about.php:106
+#: wp-admin/about.php:131
 msgid "Introducing Twenty Twenty-Five"
 msgstr "Apresentando o Twenty Twenty-Five"
 
@@ -10435,7 +10435,7 @@ msgstr "Se você quiser usar o gerenciador de links, instale o plugin <a href=\"
 msgid "When changing themes, there is often some variation in the number and setup of widget areas/sidebars and sometimes these conflicts make the transition a bit less smooth. If you changed themes and seem to be missing widgets, scroll down on this screen to the Inactive Widgets area, where all of your widgets and their settings will have been saved."
 msgstr "Quando trocar temas, sempre há alguma variação no número e configuração de áreas de widget/barras laterais e algumas vezes estes conflitos tornam a transição um pouco difícil. Se você mudou de tema e percebeu que alguns widgets estão faltando, role a tela para baixo até a área de Widgets inativos, onde todos os seus widgets com suas configurações estão salvos."
 
-#: wp-admin/edit-tags.php:286
+#: wp-admin/edit-tags.php:289
 msgid "<strong>Parent</strong> &mdash; Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
 msgstr "<strong>Ascendente</strong> &mdash; Categorias, diferente de tags podem possuir uma hierarquia. Você pode possuir uma categoria Samba e sob ela possuir subcategorias para Bossa Nova e Chorinho. Totalmente opcional. Para criar subcategorias, apenas escolha outra categoria no menu Ascendente."
 
@@ -10648,11 +10648,11 @@ msgid "Select comment"
 msgstr "Selecionar comentário"
 
 #. translators: %s: URL to Categories to Tags Converter tool.
-#: wp-admin/edit-tags.php:653
+#: wp-admin/edit-tags.php:656
 msgid "Tags can be selectively converted to categories using the <a href=\"%s\">tag to category converter</a>."
 msgstr "As tags podem ser seletivamente convertidas em categorias usando o <a href=\"%s\">conversor de tag em categoria</a>."
 
-#: wp-admin/edit-tags.php:260
+#: wp-admin/edit-tags.php:263
 msgid "You can delete Link Categories in the Bulk Action pull-down, but that action does not delete the links within the category. Instead, it moves them to the default Link Category."
 msgstr "Você pode excluir as categorias de links no menu suspenso \"Ações em massa\", mas essa ação não exclui os links dentro desta categoria. Ao invés disso, eles são movidos para a categoria padrão de links."
 
@@ -11291,13 +11291,13 @@ msgstr "Mostrar a barra de ferramentas ao ver site"
 
 #. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:75 wp-admin/about.php:358
+#: wp-admin/about.php:75 wp-admin/about.php:100 wp-admin/about.php:383
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Para mais informações, veja <a href=\"%s\">as notas de lançamento</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:352
+#: wp-admin/about.php:377
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "A <strong>versão %1$s</strong> corrigiu alguns problemas de segurança e %2$s bug."
@@ -11305,33 +11305,33 @@ msgstr[1] "A <strong>versão %1$s</strong> corrigiu alguns problemas de seguran�
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:346
+#: wp-admin/about.php:371
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "A <strong>versão %1$s</strong> corrigiu um problema de segurança e %2$s bug."
 msgstr[1] "A <strong>versão %1$s</strong> corrigiu um problema de segurança e %2$s bugs."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:63 wp-admin/about.php:340
+#: wp-admin/about.php:63 wp-admin/about.php:88 wp-admin/about.php:365
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "A <strong>versão %1$s</strong> corrigiu %2$s bug."
 msgstr[1] "A <strong>versão %1$s</strong> corrigiu %2$s bugs."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:337
+#: wp-admin/about.php:362
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "A <strong>versão %s</strong> corrigiu alguns problemas de segurança."
 
-#: wp-admin/about.php:331
+#: wp-admin/about.php:356
 msgid "Maintenance and Security Release"
 msgstr "Versão de segurança e manutenção"
 
-#: wp-admin/about.php:328
+#: wp-admin/about.php:353
 msgid "Security Release"
 msgstr "Versão de segurança"
 
-#: wp-admin/about.php:325
+#: wp-admin/about.php:350
 msgid "Maintenance Release"
 msgstr "Versão de manutenção"
 
@@ -11353,11 +11353,11 @@ msgstr "Bem-vindo ao WordPress%1$s. <a href=\"%2$s\">Saiba mais</a>."
 msgid "You can upload media files here without creating a post first. This allows you to upload files to use with posts and pages later and/or to get a web link for a particular file that you can share. There are three options for uploading files:"
 msgstr "Envie arquivos de mídia aqui sem criar um post antes. Isto permite que faça o envio de arquivos para usar em  posts e páginas mais tarde e/ou obter um link da web para um arquivo específico para compartilhar. Há três opções para enviar arquivos:"
 
-#: wp-admin/edit-tags.php:296
+#: wp-admin/edit-tags.php:299
 msgid "Adding Tags"
 msgstr "Adicionando tags"
 
-#: wp-admin/edit-tags.php:296
+#: wp-admin/edit-tags.php:299
 msgid "Adding Categories"
 msgstr "Adicionando categorias"
 
@@ -11499,11 +11499,11 @@ msgstr "Ao clicar em <strong>Selecionar arquivos</strong> uma janela de navegaç
 msgid "<strong>Drag and drop</strong> your files into the area below. Multiple files are allowed."
 msgstr "<strong>Arraste e solte</strong> seus arquivos para a área abaixo. Múltiplos arquivos são permitidos."
 
-#: wp-admin/edit-tags.php:256
+#: wp-admin/edit-tags.php:259
 msgid "You can assign keywords to your posts using <strong>tags</strong>. Unlike categories, tags have no hierarchy, meaning there is no relationship from one tag to another."
 msgstr "Você pode atribuir palavras-chave a seus posts usando <strong>tags</strong>. Ao contrário das categorias, as tags não têm hierarquia, o que significa que não há relação de uma tag para outra."
 
-#: wp-admin/edit-tags.php:254
+#: wp-admin/edit-tags.php:257
 msgid "You can create groups of links by using Link Categories. Link Category names must be unique and Link Categories are separate from the categories you use for posts."
 msgstr "Você pode criar grupos de links usando Categorias de Link. Os nomes das Categorias de Link deve ser único e as Categorias de Links são separados de categorias que você usa para posts."
 
@@ -11605,15 +11605,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "Porque esta é uma instalação multisite, você pode adicionar contas que já existem na rede, especificando um nome de usuário ou e-mail e definindo o seu papel. Para obter mais opções, como especificar uma senha, você tem que ser um administrador de rede e use o link sob o nome de um usuário existente para editar o perfil do usuário em Administração de Rede > Todos os Usuários."
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:93
+#: wp-admin/about.php:118
 msgid "Welcome to WordPress %s"
 msgstr "Boas-vindas ao WordPress %s"
 
-#: wp-admin/about.php:312
+#: wp-admin/about.php:337
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Ir para Painel &rarr; Início"
 
-#: wp-admin/about.php:305
+#: wp-admin/about.php:330
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Ir para o Painel &rarr; Atualizações"
 
@@ -11745,7 +11745,7 @@ msgstr "O menu à esquerda oferece links para todas as telas de administração 
 
 #: wp-admin/comment.php:63 wp-admin/edit-comments.php:208
 #: wp-admin/edit-form-advanced.php:344 wp-admin/edit-link-form.php:66
-#: wp-admin/edit-tags.php:268 wp-admin/edit.php:252 wp-admin/edit.php:309
+#: wp-admin/edit-tags.php:271 wp-admin/edit.php:252 wp-admin/edit.php:309
 #: wp-admin/erase-personal-data.php:23 wp-admin/export-personal-data.php:23
 #: wp-admin/export.php:51 wp-admin/import.php:24
 #: wp-admin/includes/class-custom-background.php:99
@@ -11893,7 +11893,7 @@ msgstr "Configurações salvas."
 #: wp-admin/comment.php:71 wp-admin/edit-comments.php:228
 #: wp-admin/edit-form-advanced.php:318 wp-admin/edit-form-advanced.php:335
 #: wp-admin/edit-form-advanced.php:354 wp-admin/edit-link-form.php:75
-#: wp-admin/edit-tags.php:302 wp-admin/edit.php:300 wp-admin/edit.php:325
+#: wp-admin/edit-tags.php:305 wp-admin/edit.php:300 wp-admin/edit.php:325
 #: wp-admin/erase-personal-data.php:64 wp-admin/export-personal-data.php:64
 #: wp-admin/export.php:58 wp-admin/import.php:31
 #: wp-admin/includes/class-custom-background.php:109
@@ -12015,7 +12015,7 @@ msgstr "Parece que você está usando uma versão não segura do %s. Usar um nav
 msgid "There are some invalid menu items. Please check or delete them."
 msgstr "Existem alguns itens de menu inválidos. Confira ou os exclua."
 
-#: wp-admin/edit-tag-form.php:150 wp-admin/edit-tags.php:461
+#: wp-admin/edit-tag-form.php:150 wp-admin/edit-tags.php:464
 #: wp-admin/includes/class-wp-terms-list-table.php:192
 #: wp-admin/includes/class-wp-terms-list-table.php:219
 #: wp-admin/includes/class-wp-terms-list-table.php:696
@@ -12644,7 +12644,7 @@ msgstr "Se você excluir um link, ele será removido permanentemente, pois ainda
 msgid "You can add links here to be displayed on your site, usually using <a href=\"%s\">Widgets</a>. By default, links to several sites in the WordPress community are included as examples."
 msgstr "Você pode adicionar links aqui para serem exibidos em seu site, geralmente usando <a href=\"%s\">Widgets</a>. Por padrão, os links para vários sites da comunidade WordPress são incluídos como exemplos."
 
-#: wp-admin/edit-tags.php:283
+#: wp-admin/edit-tags.php:286
 msgid "<strong>Slug</strong> &mdash; The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
 msgstr "<strong>Slug</strong> &mdash; O &#8220;slug&#8221; é uma versão amigável do URL do nome. Normalmente ele é todo em minúsculas e contém apenas letras, números e hifens."
 
@@ -12746,7 +12746,7 @@ msgid "You can add or edit links on this screen by entering information in each 
 msgstr "Você pode adicionar ou editar links nesta tela ao digitar informações em cada caixa. Somente o endereço do link e o nome (o texto que você quer que seja exibido em seu site como o link) são campos obrigatórios."
 
 #. translators: %s: URL to Categories to Tags Converter tool.
-#: wp-admin/edit-tags.php:640
+#: wp-admin/edit-tags.php:643
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
 msgstr "Para converter seletivamente categorias em tags, use o <a href=\"%s\">conversor de categoria em tag</a>."
 
@@ -12814,32 +12814,32 @@ msgstr "<strong>Ascendente</strong> &mdash; Você pode organizar suas páginas h
 msgid "All updates have been completed."
 msgstr "Todas as atualizações foram concluídas."
 
-#: wp-admin/edit-tags.php:291
+#: wp-admin/edit-tags.php:294
 msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
 msgstr "Você pode mudar a exibição nesta tela através da aba Opções de Tela e configurar quantos itens mostrar por tela e para exibir/ocultar colunas na tabela. "
 
-#: wp-admin/edit-tags.php:289
+#: wp-admin/edit-tags.php:292
 msgid "<strong>Description</strong> &mdash; The description is not prominent by default; however, some themes may display it."
 msgstr "<strong>Descrição</strong> &mdash A descrição não é proeminente por padrão, porém alguns temas podem exibi-la."
 
-#: wp-admin/edit-tags.php:281
+#: wp-admin/edit-tags.php:284
 msgid "<strong>Name</strong> &mdash; The name is how it appears on your site."
 msgstr "<strong>Nome</strong> &mdash; O Nome é como isto aparece no seu site."
 
-#: wp-admin/edit-tags.php:277
+#: wp-admin/edit-tags.php:280
 msgid "When adding a new tag on this screen, you&#8217;ll fill in the following fields:"
 msgstr "Ao adicionar uma nova tag nesta tela, você preencherá os seguintes campos:"
 
-#: wp-admin/edit-tags.php:275
+#: wp-admin/edit-tags.php:278
 msgid "When adding a new category on this screen, you&#8217;ll fill in the following fields:"
 msgstr "Quando adicionar uma nova categoria nesta tela, você preencherá os seguintes campos:"
 
-#: wp-admin/edit-tags.php:262
+#: wp-admin/edit-tags.php:265
 msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
 msgstr "Qual é a diferença entre categorias e tags? Normalmente, as tags são palavras-chave ad-hoc que identificam informações importantes em seu post (nomes, assuntos, etc.) que podem ou não ocorrer em outros posts, enquanto categorias são seções pré-determinadas. Se você pensar em seu site como um livro, as categorias são como o índice e as tags são como termos no índice."
 
 #. translators: %s: URL to Writing Settings screen.
-#: wp-admin/edit-tags.php:250
+#: wp-admin/edit-tags.php:253
 msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
 msgstr "Você pode usar categorias para definir seções de seu site e grupo de posts relacionados. A categoria padrão é &#8220;Sem categoria&#8221; até que você altere-a em suas <a href=\"%s\">configurações de escrita</a>."
 
@@ -13351,7 +13351,7 @@ msgstr "Atualizações do WordPress"
 msgid "Edit menu item"
 msgstr "Editar item do menu"
 
-#: wp-admin/about.php:312
+#: wp-admin/about.php:337
 msgid "Go to Dashboard"
 msgstr "Ir para o painel"
 
@@ -15972,7 +15972,7 @@ msgstr "Item atualizado."
 msgid "Item deleted."
 msgstr "Item excluído."
 
-#: wp-admin/edit-tag-form.php:198 wp-admin/edit-tags.php:512
+#: wp-admin/edit-tag-form.php:198 wp-admin/edit-tags.php:515
 msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
 msgstr "Ao contrário das tags, as categorias, podem ter uma hierarquia. Você pode ter uma categoria chamada MPB e nela haver categorias para Bossa Nova e Baião. Totalmente opcional."
 
