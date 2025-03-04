@@ -33,6 +33,8 @@ function wpdevs_config()
         'flex-width'=> true
     ));
     add_theme_support('automatic-feed-links');
+    add_theme_support('html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script'));
+
     add_theme_support(('title-tag'));
 }
 add_action('after_setup_theme','wpdevs_config', 0); // a funcao wpdevs_config sera chamada quando o gancho áfter_setup_theme'ficar disponivel e com a maior prioridade possivel ,0, antes de qualquer outra funcao.
